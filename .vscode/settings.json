@@ -1,3 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/game/index.html"
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
 }
