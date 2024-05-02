@@ -18,3 +18,4 @@ En el juego, consiste en que el jugador o usuario controla a una serpiente, que 
 ## Gameplay
 [![Snake Game](/img/games/snake.png)](/video/gameplay/snake.mp4)
 
+> Escrito por **Broslunas**

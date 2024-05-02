@@ -17,3 +17,5 @@ En el juego, consiste en que el jugador o usuario controla una nave la cual tien
 
 ## Gameplay
 [![Snake Game](/img/games/arkanoid.png)](/video/gameplay/arkanoid.mp4)
+
+> Escrito por **Broslunas**

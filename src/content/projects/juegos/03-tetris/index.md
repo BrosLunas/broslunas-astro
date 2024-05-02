@@ -17,3 +17,5 @@ El concepto de Tetris, en contraste, es asombrosamente simple: tienes que rotar 
 
 ## Gameplay
 [![Snake Game](/img/games/tetris.png)](/video/gameplay/tetris.mp4)
+
+> Escrito por **Broslunas**
