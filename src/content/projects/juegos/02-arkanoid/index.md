@@ -14,3 +14,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/02-arkanoid-g
 
 ## De que trata el juego
 En el juego, consiste en que el jugador o usuario controla una nave la cual tiene que derribar todos los ladriños que tiene en frente
+
+## Gameplay
+[![Snake Game](/img/games/arkanoid.png)](/video/gameplay/arkanoid.mp4)

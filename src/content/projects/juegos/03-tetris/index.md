@@ -14,3 +14,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/03-tetris
 
 ## De que trata el juego
 El concepto de Tetris, en contraste, es asombrosamente simple: tienes que rotar y encajar unos bloques de diferentes formas que van cayendo, de manera que no queden espacios entre ellos. Apenas completas una línea horizontal, esta desaparece.
+
+## Gameplay
+[![Snake Game](/img/games/tetris.png)](/video/gameplay/tetris.mp4)

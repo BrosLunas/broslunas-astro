@@ -4,9 +4,10 @@ summary: "Nuevo sitio web"
 date: "05 02 2024"
 draft: false
 tags:
-- Vue
+- Html
+- Css
 - Javascript
-- Tailwind
+- Broslunas Games
 ---
 El dia de hoy me he decidido por crear una nueva seccion dentro del sitio web llamada [Juegos](https://games-broslunas.vercel.app/games/index.html).
 
@@ -19,3 +20,8 @@ Si surge cualquier tipo de bug u cualquier comentario, puede dejar una [Issues](
 
 ## Mas Info
 En esa misma pagina, podras encontrar cada juego na mas salga a produccion.
+
+## Imagen
+![Imagen Broslunas Games](/img/broslunas-games.png)
+
+> Escrito por **Broslunas**
