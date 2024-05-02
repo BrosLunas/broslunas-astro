@@ -19,13 +19,6 @@
       <path d="M16 16l4.5 4.5"/>
     </symbol>
 
-    <!-- rss -->
-    <symbol id="rss" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-      <path d="M4 11a9 9 0 019 9"/>
-      <path d="M4 4a16 16 0 0116 16"/>
-      <circle cx="5" cy="19" r="1"/>
-    </symbol>
-
     <!-- sun -->
     <symbol id="sun" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
       <circle cx="12" cy="12" r="5"/>

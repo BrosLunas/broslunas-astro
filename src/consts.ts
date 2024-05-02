@@ -25,6 +25,18 @@ export const PROJECTS: Page = {
   DESCRIPTION: "Proyectos donde he estado implicado.",
 }
 
+//Games Page
+export const GAMES: Page = {
+  TITLE: "Juegos",
+  DESCRIPTION: "Juegos que he creado.",
+}
+
+//Status Page
+export const STATUS: Page = {
+  TITLE: "Status",
+  DESCRIPTION: "Mira el estado de la pagina.",
+}
+
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Buscar",
@@ -48,6 +60,14 @@ export const LINKS: Links = [
   { 
     TEXT: "Trabajos", 
     HREF: "/works", 
+  },
+  { 
+    TEXT: "Games", 
+    HREF: "https://games-broslunas.vercel.app/game/", 
+  },
+  { 
+    TEXT: "Status", 
+    HREF: "https://hetrixtools.com/r/b0333544f0759908d2f94f81a19cfd62/", 
   },
 ]
 
