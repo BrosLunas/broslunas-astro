@@ -62,20 +62,20 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "Broslunas",
+    HREF: "https://github.com/broslunas"
   },
   { 
-    NAME: "LinkedIn",
-    ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    NAME: "Instagram",
+    ICON: "instagram",
+    TEXT: "@_pablito_luna_",
+    HREF: "https://bit.ly/ig-broslunas",
   },
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    TEXT: "@Broslunas",
+    HREF: "https://bit.ly/twitter-broslunas",
   },
 ]
 
