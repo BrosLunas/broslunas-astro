@@ -4,6 +4,7 @@ summary: "He creado el juego de snake en html, css y js para un navegador"
 date: "May 2 2024"
 draft: false
 tags:
+- Juego
 - Html
 - Javascript
 - Css
