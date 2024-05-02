@@ -1,7 +1,7 @@
 ---
 title: "Juego Arkanoid"
 summary: "He creado el juego de Arkanoid en html, css y js para un navegador"
-date: "May 2 2024"
+date: "04 26 2024"
 draft: false
 tags:
 - Juego
