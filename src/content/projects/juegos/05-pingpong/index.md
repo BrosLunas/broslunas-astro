@@ -26,6 +26,6 @@ El objetivo de Pong es derrotar al oponente siendo el primero en acumular diez p
 **⬇**: Para bajar el player
 
 ## Gameplay
-[![Snake Game](/img/games/pingpong.png)](/video/gameplay/pingpong.mp4)
+[![Ping Pong Game](/img/games/pingpong.png)](/video/gameplay/pingpong.mp4)
 
 > Escrito por **Broslunas**
