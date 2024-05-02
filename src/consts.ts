@@ -2,52 +2,52 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  TITLE: "Broslunas Center",
+  DESCRIPTION: "Bienvenidos a Broslunas Center, Un portafolio web para desarrolladores.",
+  AUTHOR: "Broslunas",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Trabajos",
+  DESCRIPTION: "Sitios donde he trabajado.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Publicaciones sobre el desarrollo.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Proyectos",
+  DESCRIPTION: "Proyectos donde he estado implicado.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Buscar",
+  DESCRIPTION: "Buscar cualquier publicacion o proyecto.",
 }
 
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Home", 
+    TEXT: "Inicio", 
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
-    HREF: "/work", 
+    TEXT: "Trabajos", 
+    HREF: "/trabajos", 
   },
   { 
     TEXT: "Blog", 
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
+    TEXT: "Proyectos", 
+    HREF: "/proyectos", 
   },
 ]
 
@@ -56,8 +56,8 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "pablo.luna.perez.008@gmail.com",
+    HREF: "mailto:pablo.luna.perez.008@gmail.com",
   },
   { 
     NAME: "Github",
