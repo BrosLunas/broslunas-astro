@@ -58,11 +58,7 @@ export const LINKS: Links = [
     HREF: "/projects", 
   },
   { 
-    TEXT: "Trabajos", 
-    HREF: "/works", 
-  },
-  { 
-    TEXT: "Games", 
+    TEXT: "Juegos", 
     HREF: "https://games-broslunas.vercel.app/game/", 
   },
   { 
