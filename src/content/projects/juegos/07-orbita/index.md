@@ -1,6 +1,6 @@
 ---
 title: "Juego Orbita"
-summary: "He creado ORbita en html, css y js para un navegador"
+summary: "He creado Orbita en html, css y js para un navegador"
 date: "05 05 2024"
 draft: false
 tags:
