@@ -4,9 +4,6 @@ summary: "Nuevo sitio web"
 date: "05 02 2024"
 draft: false
 tags:
-- Html
-- Css
-- Javascript
 - Broslunas Games
 ---
 El dia de hoy me he decidido por crear una nueva seccion dentro del sitio web llamada [Juegos](https://games-broslunas.vercel.app/games/index.html).

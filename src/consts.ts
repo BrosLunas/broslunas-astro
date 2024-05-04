@@ -25,12 +25,6 @@ export const PROJECTS: Page = {
   DESCRIPTION: "Proyectos donde he estado implicado.",
 }
 
-//Games Page
-export const GAMES: Page = {
-  TITLE: "Minecraft",
-  DESCRIPTION: "Mods.",
-}
-
 //Status Page
 export const STATUS: Page = {
   TITLE: "Status",
@@ -56,10 +50,6 @@ export const LINKS: Links = [
   { 
     TEXT: "Proyectos", 
     HREF: "/projects", 
-  },
-  { 
-    TEXT: "Minecraft", 
-    HREF: "https://minecraft-broslunas.vercel.app", 
   },
   { 
     TEXT: "Status", 

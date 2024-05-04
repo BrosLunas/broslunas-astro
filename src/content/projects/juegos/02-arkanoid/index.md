@@ -5,9 +5,6 @@ date: "04 26 2024"
 draft: false
 tags:
 - Juego
-- Html
-- Javascript
-- Css
 demoUrl: https://games-broslunas.vercel.app/game/demo/02-arkanoid-game/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/02-arkanoid-game
 ---
