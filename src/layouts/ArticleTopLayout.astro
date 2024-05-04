@@ -69,11 +69,12 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
     }
     {downloadUrl && 
       <a href={downloadUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <svg class="size-4">
+          <use href="/ui.svg#download" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Descargar
         </span>
       </a>
     }
   </div> 
-  }
 </div>
