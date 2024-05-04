@@ -67,31 +67,3 @@ export const LINKS: Links = [
   },
 ]
 
-// Socials
-export const SOCIALS: Socials = [
-  { 
-    NAME: "Email",
-    ICON: "email", 
-    TEXT: "pablo.luna.perez.008@gmail.com",
-    HREF: "mailto:pablo.luna.perez.008@gmail.com",
-  },
-  { 
-    NAME: "Github",
-    ICON: "github",
-    TEXT: "Broslunas",
-    HREF: "https://github.com/broslunas"
-  },
-  { 
-    NAME: "Instagram",
-    ICON: "instagram",
-    TEXT: "@_pablito_luna_",
-    HREF: "https://bit.ly/ig-broslunas",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "@Broslunas",
-    HREF: "https://bit.ly/twitter-broslunas",
-  },
-]
-
