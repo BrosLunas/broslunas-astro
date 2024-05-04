@@ -18,6 +18,6 @@ El juego consiste en tener que huir de un mundo atravesando los portales
 **X**: Para aceptar
 
 ## Gameplay
-[![Orbita Game](/img/games/copycat.png)](/video/gameplay/copycat.mp4)
+[![Copycat Game](/img/games/copycat.png)](/video/gameplay/copycat.mp4)
 
 > Escrito por **Broslunas**

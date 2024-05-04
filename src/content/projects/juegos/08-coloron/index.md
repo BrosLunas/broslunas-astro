@@ -16,6 +16,6 @@ El juego consiste en tener que darle click a las barras para que se ponga de col
 Haz click en las barras
 
 ## Gameplay
-[![Orbita Game](/img/games/coloron.png)](/video/gameplay/coloron.mp4)
+[![Coloron Game](/img/games/coloron.png)](/video/gameplay/coloron.mp4)
 
 > Escrito por **Broslunas**
