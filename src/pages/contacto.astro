@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import ArrowCard from "@components/ArrowCard"
+import { SITE, SOCIALS } from "@consts"
+import TwinklingStars from "@components/TwinklingStars.astro"
+import MeteorShower from "@components/MeteorShower.astro"
+
+const posts = (await getCollection("blog"))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
+
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
+---
+
+<PageLayout title="Contacto" description={SITE.DESCRIPTION}>
+
+  <!-- Light Mode: Particles -->
+  <div class='absolute inset-0 block dark:hidden'>
+    <div id='particles1' class='fixed inset-0'></div>
+    <div id='particles2' class='fixed inset-0'></div>
+    <div id='particles3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Stars -->
+  <div class='absolute inset-0 bg-black hidden dark:block'>
+    <div id='stars1' class='fixed inset-0'></div>
+    <div id='stars2' class='fixed inset-0'></div>
+    <div id='stars3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Twinkling Stars / Metors -->
+  <div id="galaxy" class="fixed inset-0">
+    <div class="hidden dark:block">
+      <TwinklingStars/>
+      <MeteorShower/>
+    </div>
+  </div>
+
+  <script is:inline src="/js/bg.js"></script>
+  
+  <!-- HERO -->
+  <section class="relative h-screen w-full">
+    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
+      <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[250vw] min-h-[100vh] aspect-square rounded-full p-[1px] bg-gradient-to-b from-black/25 dark:from-white/75 from-0% to-transparent to-5%'>
+        <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
+          <div id="blur" class='w-full h-20 rounded-full bg-neutral-900/25 dark:bg-white/25 blur-3xl'/>
+        </div>
+      </div>
+    </div>
+    <div class="animate absolute h-full w-full flex items-center justify-center">
+      <div class='relative w-full h-full flex items-center justify-center'>
+        <div class='p-5 text-center'>
+          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
+            Broslunas
+          </p>
+          <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
+            Contactame
+          </p>
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
+            ¿Tienes algo que decirme?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+      <!-- About Section -->
+      <section class="animate">
+        <div class="mail-wrapper" style="" lang="und" dir="auto"> <table align="center" class="wrapper" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#rgb(31, 31, 31)background-color:#FFFFFF;width:100%"> <tbody> <tr> <td> <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper-outlook" role="presentation" style="width:640px;" width="640" bgcolor="#FFFFFF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div style="margin:0px auto;max-width:640px"> <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"> <tbody> <tr> <td style="direction:ltr;font-size:0px;padding:0;text-align:center"> <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="640px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:640px;" width="640" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div class="" style="margin:0px auto;max-width:640px"> <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"> <tbody> <tr> <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center"> <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:640px;" ><![endif]--> <div class="mj-column-px-640 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%"> <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top" width="100%"> <tbody> <tr> <td align="left" class="" style="font-size:0px;padding:10px 25px;word-break:break-word"> <div style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-size:22px;font-weight:normal;line-height:32px;text-align:left;color:#000000">¿Cuál es tu nombre?</div> </td> </tr> <tr> <td align="left" class="" style="font-size:0px;padding:32px 25px 8px 25px;word-break:break-word"> <div style="font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:30px;line-height:38px;text-align:left;color:#000000"><p style="margin:0"><a href="https://zk4g4s63ba7.typeform.com/to/CDoVxGTU?typeform-medium=embed-email" style="color:#0445AF;text-decoration:none">Type your answer here...</a></p></div> </td> </tr> <tr> <td align="center" class="" style="font-size:0px;padding:0px 25px;word-break:break-word"> <p style="border-top:solid 1px #0445AF;font-size:1px;margin:0px auto;width:100%"> </p> <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #0445AF;font-size:1px;margin:0px auto;width:590px;" role="presentation" width="590px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+        </td></tr></table><![endif]--> </td> </tr> <tr> <td align="left" class="" style="font-size:0px;padding:16px 25px 0px 25px;word-break:break-word"> <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%"> <tbody> <tr> <td align="center" bgcolor="#0445AF" role="presentation" style="border:none;border-radius:4px;cursor:auto;height:42px;mso-padding-alt:6px 14px;background:#0445AF" valign="middle"> <a href="https://zk4g4s63ba7.typeform.com/to/CDoVxGTU?typeform-medium=embed-email" style="display:inline-block;background:#0445AF;color:#FFFFFF;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-size:20px;font-weight:700;line-height:28px;margin:0;text-decoration:none;text-transform:none;padding:6px 14px;mso-padding-alt:0px;border-radius:4px" target="_blank"> OK&nbsp;<span class="sc-gsTCUz gkGyle"></span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="640px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:640px;" width="640" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--> <div class="" style="margin:0px auto;max-width:640px"> <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"> <tbody> <tr> <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center"> <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:640px;" ><![endif]--> <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%"> <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top" width="100%"> <tbody> <tr> <td align="center" class="" style="font-size:0px;padding:10px 25px;word-break:break-word"> <div style="font-family:Helvetica,Arial;font-size:12px;font-weight:normal;line-height:1;text-align:center;color:#000000">Powered by <a color="#000000" href="https://www.typeform.com" style="color:#000000;text-decoration:none;font-weight:bold">Typeform</a></div> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> <style>#outlook a{padding:0}body{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}table,td{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}img{border:0;height:auto;line-height:100%;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic}p{display:block;margin:13px 0}@media only screen and (min-width:480px){.mj-column-px-640{width:640px !important;max-width:640px}.mj-column-per-100{width:100% !important;max-width:100%}}.moz-text-html .mj-column-px-640{width:640px !important;max-width:640px}.moz-text-html .mj-column-per-100{width:100% !important;max-width:100%}.mj-column-px-640{width:100% !important;max-width:640px}/*!sc*/data-styled.g1[id="sc-global-juhJZJ1"]{content:"sc-global-juhJZJ1,"}/*!sc*/.gkGyle{position:relative;display:inline-block;width:16px;height:13px;-webkit-transform:translate(-4px,-2px);-ms-transform:translate(-4px,-2px);transform:translate(-4px,-2px)}/*!sc*/.gkGyle::before{content:'';position:absolute;width:2px;height:15px;background-color:#FFFFFF;left:14px;top:0px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}/*!sc*/.gkGyle::after{content:'';position:absolute;width:7px;height:2px;background-color:#FFFFFF;left:5px;top:9px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}/*!sc*/data-styled.g5[id="sc-gsTCUz"]{content:"gkGyle,"}/*!sc*/</style><link href="https://font.typeform.com/dist/google/ubuntu/index.css" rel="stylesheet" type="text/css"></div>
+      </section>
+</PageLayout>
