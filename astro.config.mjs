@@ -8,4 +8,9 @@ import solidJs from "@astrojs/solid-js"
 export default defineConfig({
   site: "https://broslunas.vercel.app",
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
+  redirects: {
+    '/projects/minecraft': '/projects',
+    '/projects/juegos': '/projects'
+
+  }
 })

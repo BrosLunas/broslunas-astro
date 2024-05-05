@@ -5,8 +5,8 @@ date: "05 08 2024"
 draft: false
 tags:
 - Juego
-demoUrl: https://games-broslunas.vercel.app/game/demo/08-coloron/
-repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/08-coloron/
+demoUrl: https://games-broslunas.vercel.app/game/demo/09-copycat/
+repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/09-copycat/
 ---
 
 ## De que trata el juego
