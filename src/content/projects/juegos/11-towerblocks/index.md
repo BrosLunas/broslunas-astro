@@ -1,0 +1,21 @@
+---
+title: "Juego Tower Blocks"
+summary: "He creado el Tower Blocks en html, css y js para un navegador"
+date: "05 10 2024"
+draft: false
+tags:
+- Juego
+demoUrl: https://games-broslunas.vercel.app/game/demo/11-towerblocks/
+repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/11-towerblocks/
+---
+
+## De que trata el juego
+El juego consiste en hacer una torre lo mas alta posible haciendo click en el momento esacto
+
+## Controles
+**Click / ESPACIO**: Colocar
+
+## Gameplay
+[![TowerBlocks Game](/img/games/towerblocks.png)](/video/gameplay/towerblocks.mp4)
+
+> Escrito por **Broslunas**

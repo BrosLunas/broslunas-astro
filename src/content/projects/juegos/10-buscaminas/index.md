@@ -18,6 +18,6 @@ El juego consiste en despejar un campo minado sin detonar ninguna mina.
 **CLICK**: Despejar
 
 ## Gameplay
-[![Copycat Game](/img/games/buscaminas.png)](/video/gameplay/buscaminas.mp4)
+[![Buscaminas Game](/img/games/buscaminas.png)](/video/gameplay/buscaminas.mp4)
 
 > Escrito por **Broslunas**
