@@ -10,7 +10,6 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
   redirects: {
     '/projects/minecraft': '/projects',
-    '/projects/juegos': '/projects'
-
+    '/projects/juegos': '/projects',
   }
 })
