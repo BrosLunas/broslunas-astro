@@ -62,6 +62,10 @@ export const LINKS: Links = [
     HREF: "/contacto", 
   },
   { 
+    TEXT: "ZELDA", 
+    HREF: "https://zelda-broslunas.vercel.app", 
+  },
+  { 
     TEXT: "Status", 
     HREF: "https://hetrixtools.com/r/b0333544f0759908d2f94f81a19cfd62/", 
   },
