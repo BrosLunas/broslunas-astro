@@ -5,7 +5,7 @@ date: "05 29 2024"
 draft: false
 tags:
 - Juego
-- Juego 3D
+- 3D
 demoUrl: https://zelda-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/broslunas-zelda
 ---
