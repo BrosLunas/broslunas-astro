@@ -8,6 +8,7 @@ tags:
 - 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/04-pacman/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/04-pacman
+wikiUrl: /wiki/juegos/2d/pacman/
 ---
 
 ## De que trata el juego

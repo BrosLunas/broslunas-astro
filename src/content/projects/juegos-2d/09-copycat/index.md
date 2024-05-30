@@ -8,6 +8,7 @@ tags:
 - 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/09-copycat/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/09-copycat/
+wikiUrl: /wiki/juegos/2d/copycat/
 ---
 
 ## De que trata el juego

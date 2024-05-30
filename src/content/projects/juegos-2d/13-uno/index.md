@@ -8,6 +8,7 @@ tags:
 - 2D
 demoUrl: https://uno-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/uno-broslunas
+wikiUrl: /wiki/juegos/2d/uno/
 ---
 
 ## Gameplay

@@ -8,6 +8,7 @@ tags:
 - 2D
 demoUrl: https://mario-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/mario-broslunas
+wikiUrl: /wiki/juegos/2d/mario/
 ---
 
 ## Gameplay
