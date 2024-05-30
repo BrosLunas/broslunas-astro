@@ -5,6 +5,7 @@ date: "05 07 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/08-coloron/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/08-coloron/
 ---

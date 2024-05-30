@@ -5,6 +5,7 @@ date: "05 30 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://mario-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/mario-broslunas
 ---

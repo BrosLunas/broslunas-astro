@@ -5,6 +5,7 @@ date: "05 09 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/10-buscaminas/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/10-buscaminas/
 ---

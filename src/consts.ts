@@ -31,6 +31,12 @@ export const CONTACTO: Page = {
   DESCRIPTION: "Contacta conmigo.",
 }
 
+// Contacto Page 
+export const JUEGOS: Page = {
+  TITLE: "Juegos",
+  DESCRIPTION: "Mira todos los ultimos juegos lanzados.",
+}
+
 //Status Page
 export const STATUS: Page = {
   TITLE: "Status",
@@ -46,16 +52,16 @@ export const SEARCH: Page = {
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Inicio", 
-    HREF: "/", 
-  },
-  { 
     TEXT: "Blog", 
     HREF: "/blog", 
   },
   { 
     TEXT: "Proyectos", 
     HREF: "/projects", 
+  },
+  { 
+    TEXT: "Juegos", 
+    HREF: "/juegos", 
   },
   { 
     TEXT: "Contacto", 

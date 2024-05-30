@@ -5,6 +5,7 @@ date: "04 29 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/03-tetris/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/03-tetris
 ---

@@ -5,6 +5,7 @@ date: "05 02 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/04-pacman/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/04-pacman
 ---

@@ -5,6 +5,7 @@ date: "05 04 2024"
 draft: false
 tags:
 - Juego
+- 2D
 demoUrl: https://games-broslunas.vercel.app/game/demo/06-flappy-dino/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/06-flappy-dino/
 ---
