@@ -11,12 +11,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/11-towerblock
 wikiUrl: /wiki/juegos/2d/toweblocks/
 ---
 
-## De que trata el juego
-El juego consiste en hacer una torre lo mas alta posible haciendo click en el momento esacto
-
-## Controles
-**Click / ESPACIO**: Colocar
-
 ## Gameplay
 [![TowerBlocks Game](/img/games/towerblocks.png)](/video/gameplay/towerblocks.mp4)
 

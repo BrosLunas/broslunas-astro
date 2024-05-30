@@ -11,14 +11,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/10-buscaminas
 wikiUrl: /wiki/juegos/2d/buscaminas/
 ---
 
-## De que trata el juego
-El juego consiste en despejar un campo minado sin detonar ninguna mina.
-
-## Controles
-**ALT + CLICK**: Colocar Bandera
-
-**CLICK**: Despejar
-
 ## Gameplay
 [![Buscaminas Game](/img/games/buscaminas.png)](/video/gameplay/buscaminas.mp4)
 

@@ -11,9 +11,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/01-snake
 wikiUrl: /wiki/juegos/2d/snake/
 ---
 
-## De que trata el juego
-En el juego, consiste en que el jugador o usuario controla a una serpiente, que se desplaza a velocidad constante dentro de un plano delimitado, recogiendo alimentos (o algún otro elemento), tratando de evitar golpearse contra paredes que rodean el área de juego o su propia cola
-
 ## Gameplay
 [![Snake Game](/img/games/snake.png)](/video/gameplay/snake.mp4)
 

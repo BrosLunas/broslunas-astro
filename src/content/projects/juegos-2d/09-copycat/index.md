@@ -11,14 +11,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/09-copycat/
 wikiUrl: /wiki/juegos/2d/copycat/
 ---
 
-## De que trata el juego
-El juego consiste en tener que huir de un mundo atravesando los portales
-
-## Controles
-**Flechas
-**: Para moverte
-**X**: Para aceptar
-
 ## Gameplay
 [![Copycat Game](/img/games/copycat.png)](/video/gameplay/copycat.mp4)
 

@@ -11,14 +11,6 @@ repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/06-flappy-din
 wikiUrl: /wiki/juegos/2d/flappy-dino/
 ---
 
-## De que trata el juego
-Es un videojuego de mecánicas simples que pone al jugador en las plumas de un dino que debe esquivar los huesos a la vez que se mantiene en el aire
-
-## Controles
-
-### Jugador 1
-**ESPACE**: Para saltar 
-
 ## Gameplay
 [![Flappy Dino Game](/img/games/flappy-dino.png)](/video/gameplay/flappy-dino.mp4)
 
