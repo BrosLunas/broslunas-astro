@@ -62,8 +62,8 @@ export const LINKS: Links = [
     HREF: "/contacto", 
   },
   { 
-    TEXT: "ZELDA", 
-    HREF: "https://zelda-broslunas.vercel.app", 
+    TEXT: "Mario", 
+    HREF: "https://mario-broslunas.vercel.app", 
   },
   { 
     TEXT: "Status", 
