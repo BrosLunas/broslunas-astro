@@ -1,0 +1,130 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/projects/juegos",
+			"headers": {
+				"Location": "/projects"
+			},
+			"status": 301
+		},
+		{
+			"src": "/projects/minecraft",
+			"headers": {
+				"Location": "/projects"
+			},
+			"status": 301
+		},
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^\\/_image$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/404\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/blog\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/blog(?:\\/(.*?))?\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/contacto\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/juegos\\/info\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/juegos\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/legal(?:\\/(.*?))?\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects(?:\\/(.*?))?\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/robots\\.txt\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/rss\\.xml\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/search\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/arkanoid\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/flappy-dino\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/pacman\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/pingpong\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/snake\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/2d\\/tetris\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/wiki\\/juegos\\/3d\\/zelda\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/works\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects\\/juegos\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects\\/minecraft\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "/.*",
+			"dest": "_render",
+			"status": 404
+		}
+	]
+}

@@ -17,5 +17,8 @@ export default defineConfig({
     '/projects/juegos': '/projects'
   },
   output: "server",
-  adapter: vercel()
-});
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    }})
+})
