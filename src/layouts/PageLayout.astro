@@ -6,7 +6,6 @@ import Footer from "@components/Footer.astro"
 import Drawer from "@components/Drawer.astro"
 const { title, description } = Astro.props
 import { SITE } from "@consts"
-import  SpeedInsights  from "@vercel/speed-insights/astro"
 ---
 
 <!doctype html>
@@ -15,7 +14,6 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
     <BaseHead title={`${title} | ${SITE.TITLE}`} description={description} />
   </head>
   <body>
-    <SpeedInsights/>
     <Header />
     <Drawer />
     <main>
