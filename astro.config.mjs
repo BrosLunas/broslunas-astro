@@ -3,8 +3,8 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import solidJs from "@astrojs/solid-js";
+import vercel from '@astrojs/vercel/serverless';
 
-import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,9 +16,10 @@ export default defineConfig({
     '/projects/minecraft': '/projects',
     '/projects/juegos': '/projects'
   },
-  output: "server",
+  output: 'server',
   adapter: vercel({
     webAnalytics: {
       enabled: true,
-    }})
+    },
+  }),
 })
