@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content"
 import { formatDate, readingTime } from "@lib/utils"
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 type Props = {
   entry: CollectionEntry<"projects"> | CollectionEntry<"blog">
@@ -15,7 +16,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
 const wikiUrl = collection === "projects" ? data.wikiUrl : null
 const downloadUrl = collection === "projects" ? data.downloadUrl : null
 ---
-
+<SpeedInsights/>
 <div>
   <a href={`/${collection}`} class="group w-fit p-1.5 gap-1.5 text-sm flex items-center border rounded hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="stroke-current group-hover:stroke-black group-hover:dark:stroke-white">
