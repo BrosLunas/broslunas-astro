@@ -148,3 +148,8 @@ article img {
 #meteors .shower.ul {
   @apply rotate-315;
 }
+
+.container {
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+  border-radius: 25px
+}
