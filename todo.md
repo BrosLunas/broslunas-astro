@@ -4,7 +4,10 @@
 # Wikis
 - ✅ End Xpansion
 - ✅ Coloron
-- Copycat
+- ✅ opycat
 - Buscaminas
 - Tower Blocks
 - Mario
+
+# Add SVG assets from social networks
+✅
