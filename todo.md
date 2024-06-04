@@ -1,6 +1,6 @@
 # Wikis
 - ✅ End Xpansion
-- Coloron
+- ✅ Coloron
 - Copycat
 - Buscaminas
 - Tower Blocks
