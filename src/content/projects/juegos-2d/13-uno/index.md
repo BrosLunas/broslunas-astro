@@ -12,6 +12,6 @@ wikiUrl: /wiki/juegos/2d/uno/
 ---
 
 ## Gameplay
-[![Mario Bros Game](/img/games/uno.png)](/video/gameplay/uno.mp4)
+[![Mario Bros Game](/img/games/uno-online.png)](/video/gameplay/uno.mp4)
 
 > Escrito por **Broslunas**
