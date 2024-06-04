@@ -11,4 +11,3 @@
 - Buscaminas
 - Tower Blocks
 - Mario
-- Ahorcado 
