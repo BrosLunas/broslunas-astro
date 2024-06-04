@@ -171,24 +171,34 @@ import MeteorShower from "@components/MeteorShower.astro"
 </style>
 
 <script>
-    let currentIndex = 0;
+  document.addEventListener('DOMContentLoaded', () => {
+      let currentIndex = 0;
 
-    const carouselInner = document.querySelector('.carousel-inner');
-    const items = document.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
+      const carouselInner = document.querySelector('.carousel-inner') as HTMLElement;
+      const items = document.querySelectorAll('.carousel-item');
+      const prevButton = document.querySelector('.prev');
+      const nextButton = document.querySelector('.next');
 
-    document.querySelector('.prev').addEventListener('click', () => {
-        currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalItems - 1;
-        updateCarousel();
-    });
+      if (!carouselInner || !items.length || !prevButton || !nextButton) {
+          console.error('No se encontraron todos los elementos necesarios del carrusel.');
+          return;
+      }
 
-    document.querySelector('.next').addEventListener('click', () => {
-        currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : 0;
-        updateCarousel();
-    });
+      const totalItems = items.length;
 
-    function updateCarousel() {
-        const offset = -currentIndex * 100;
-        carouselInner.style.transform = `translateX(${offset}%)`;
-    }
+      prevButton.addEventListener('click', () => {
+          currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalItems - 1;
+          updateCarousel();
+      });
+
+      nextButton.addEventListener('click', () => {
+          currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : 0;
+          updateCarousel();
+      });
+
+      function updateCarousel() {
+          const offset = -currentIndex * 100;
+          carouselInner.style.transform = `translateX(${offset}%)`;
+      }
+  });
 </script>
