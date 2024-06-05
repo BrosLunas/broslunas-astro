@@ -10,5 +10,4 @@
 # Wikis
 - Tower Blocks
 - Mario
-- Simon Dice
 - 3 en raya
