@@ -31,10 +31,16 @@ export const CONTACTO: Page = {
   DESCRIPTION: "Contacta conmigo.",
 }
 
-// Contacto Page 
+// Juegos Page 
 export const JUEGOS: Page = {
   TITLE: "Juegos",
   DESCRIPTION: "Mira todos los ultimos juegos lanzados.",
+}
+
+// Wiki Page 
+export const WIKI: Page = {
+  TITLE: "Wiki",
+  DESCRIPTION: "Mira la wiki de cada proyecto.",
 }
 
 //Status Page
@@ -62,6 +68,10 @@ export const LINKS: Links = [
   { 
     TEXT: "Juegos", 
     HREF: "/juegos", 
+  },
+  { 
+    TEXT: "Wiki", 
+    HREF: "/wiki", 
   },
   { 
     TEXT: "Contacto", 

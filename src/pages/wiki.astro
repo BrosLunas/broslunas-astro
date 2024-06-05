@@ -1,0 +1,151 @@
+---
+import { getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import ArrowCard from "@components/ArrowCard"
+import { SITE } from "@consts"
+import TwinklingStars from "@components/TwinklingStars.astro"
+import MeteorShower from "@components/MeteorShower.astro"
+import Spoiler from "@components/Spoiler.astro"
+
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
+---
+
+<PageLayout title="Wiki" description={SITE.DESCRIPTION}>
+
+  <!-- Light Mode: Particles -->
+  <div class='absolute inset-0 block dark:hidden'>
+    <div id='particles1' class='fixed inset-0'></div>
+    <div id='particles2' class='fixed inset-0'></div>
+    <div id='particles3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Stars -->
+  <div class='absolute inset-0 bg-black hidden dark:block'>
+    <div id='stars1' class='fixed inset-0'></div>
+    <div id='stars2' class='fixed inset-0'></div>
+    <div id='stars3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Twinkling Stars / Metors -->
+  <div id="galaxy" class="fixed inset-0">
+    <div class="hidden dark:block">
+      <TwinklingStars/>
+      <MeteorShower/>
+    </div>
+  </div>
+
+  <script is:inline src="/js/bg.js"></script>
+  
+  <!-- HERO -->
+  <section class="relative h-screen w-full">
+    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
+      <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[250vw] min-h-[100vh] aspect-square rounded-full p-[1px] bg-gradient-to-b from-black/25 dark:from-white/75 from-0% to-transparent to-5%'>
+        <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
+          <div id="blur" class='w-full h-20 rounded-full bg-neutral-900/25 dark:bg-white/25 blur-3xl'/>
+        </div>
+      </div>
+    </div>
+    <div class="animate absolute h-full w-full flex items-center justify-center">
+      <div class='relative w-full h-full flex items-center justify-center'>
+        <div class='p-5 text-center'>
+          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
+            Tutoriales simples
+          </p>
+          <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
+            Wiki
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="relative bg-white dark:bg-black">
+    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
+
+      <!-- About Section -->
+      <section class="animate">
+        <article>
+           <p>
+                Aqui podras enconctrar dentro de cada projecto, al lado del botón de <b>Probar Demo</b> y <b>Ver Repositorio</b>, con un boton de <b>Leer Wiki</b>.
+            </p>
+            <button class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend" id="spoiler-button">SPOILER</button>
+            <div id="spoiler-content" class="hidden">
+                <img src="/img/wiki/leer-wiki.png" alt="Imagen Spoiler">
+            </div>
+            <p>
+                Aqui podras encontrar de que trata un juego, cuales son los controles, hasta podras ver un <b>Gameplay</b> corto del funcionamiento de este.
+            </p>
+        </article>
+      </section>
+
+      <!-- Project Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              Proyectos
+            </p>
+            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                Ver mas
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {projects.map((project) => (
+              <li>
+                <ArrowCard entry={project} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</PageLayout>
+
+<style>
+    .hidden {
+    display: none;
+    }
+
+    #spoiler-content {
+    margin-top: 10px;
+    }
+
+    button {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    button:hover{
+    border: 1px solid;
+    border-radius: 25px;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('spoiler-button');
+    const content = document.getElementById('spoiler-content');
+
+    if (button && content) {
+        button.addEventListener('click', function() {
+            content.classList.toggle('hidden');
+        });
+    } else {
+        if (!button) {
+            console.error("El botón con el ID 'spoiler-button' no se encontró en el DOM.");
+        }
+        if (!content) {
+            console.error("El contenido con el ID 'spoiler-content' no se encontró en el DOM.");
+        }
+    }
+});
+</script>
