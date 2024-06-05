@@ -8,7 +8,6 @@
 # Add Projects
 
 # Wikis
-- Buscaminas
 - Tower Blocks
 - Mario
 - Simon Dice
