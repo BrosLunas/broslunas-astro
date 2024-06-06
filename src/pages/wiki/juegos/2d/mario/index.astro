@@ -6,7 +6,7 @@ import MeteorShower from "@components/MeteorShower.astro"
 
 ---
 
-<PageLayout title="Wiki Copy Cat" description={SITE.DESCRIPTION}>
+<PageLayout title="Wiki Mario" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>
@@ -48,10 +48,10 @@ import MeteorShower from "@components/MeteorShower.astro"
             WIKI
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            COPY CAT
+            MARIO
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/projects/juegos-2d/09-copycat' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+            <a href='/projects/juegos-2d/12-mario' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
               Volver al projecto
             </a>
           </div>
@@ -68,7 +68,7 @@ import MeteorShower from "@components/MeteorShower.astro"
         <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white">Informacion</h1>
         <article>
             <p>
-                En el juego, el jugador, controla dos gatos cada uno se mueve a la misma vez que el otro. El objetivo del juego es conseguir que los dos gatos consigan llegar a la meta a la vez.
+                El concepto de Mario, el objetivo del juego es derrotar a todos los enemigos en cada fase.
             </p>
         </article>
       </section>
@@ -82,12 +82,14 @@ import MeteorShower from "@components/MeteorShower.astro"
             </p>
             <p>
                 <b class="text-1x1 md:text-2xl lg:text-3xl font-bold uppercase text-black dark:text-white">Botones</b> <br>
-                <b>↑ :</b> Mueve el personaje hacia arriba <br>
-                <b>← :</b> Mueve el personaje hacia la izquierda <br>
-                <b>→ :</b> Mueve el personaje haia abajo <br>
-                <b>↓ :</b> Mueve el personaje hacia la derecha <br>
-                <b>X:</b> Seleccionar <br>
-            </p>
+                <b>W:</b> Saltar
+                <b>A:</b> Muevete hacia la izquierda
+                <b>S:</b> Agachate
+                <b>D:</b> Muevete hacia la derecha
+                <b>Shift / Ctrl:</b> Correr
+                <b>P:</b> Pausar
+                <b>M:</b> Mutear
+
         </article>
       </section>
 
@@ -99,7 +101,7 @@ import MeteorShower from "@components/MeteorShower.astro"
                 Aqui le dejamos un corto video del juego de demostracion
             </p>
             <video class="container" loop autoplay muted>
-                <source src="/video/gameplay/copycat.mp4" type="video/mp4">
+                <source src="/video/gameplay/mario.mp4" type="video/mp4">
             </video>
         </article>
       </section>
