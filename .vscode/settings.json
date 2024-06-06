@@ -1,5 +1,8 @@
 {
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
-  }
+  },
+  "CodeGPT.apiKey": "Nvidia",
+  "CodeGPT.Autocomplete.enabled": true,
+  "CodeGPT.Autocomplete.provider": "Ollama - llama3:70b-instruct"
 }
