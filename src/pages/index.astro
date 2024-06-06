@@ -65,11 +65,14 @@ const projects = (await getCollection("projects"))
             Actualmente desarrollando pagina web con Astro.
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
-              Leer Blog
+            <a href='#blog' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+              Blog
             </a>
-            <a href='/projects' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
-              Ver Proyectos
+            <a href='#about' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              Sobre mi
+            </a>
+            <a href='#projects' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+              Projectos
             </a>
           </div>
         </div>
@@ -81,14 +84,16 @@ const projects = (await getCollection("projects"))
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
 
       <!-- About Section -->
-      <section class="animate">
+      <section id="about" class="animate">
         <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate ab animi totam ex quo labore earum laudantium tempora minus, impedit itaque voluptatum doloribus, inventore eveniet? Corrupti, suscipit? Perferendis a inventore exercitationem adipisci iure obcaecati blanditiis repellat eveniet aut expedita quos, eos quaerat ab saepe nesciunt ea. Aliquid, dolore a!
+          <p>
+            Soy un desarrollador web que se encuentra trabajando en un projecto de <a href="https://astro.build">Astro</a> y se enfoca en crear juegos clasicos y divertidos para navegador utilizando simple <b>HTML</b>, <b>CSS</b> y <b>JS</b>. En algunos casos tambien suelo implementar <b>ThreeJS</b>, una herramienta para poder usar una tercera dimension en mis juegos (<b><a href="http://192.168.1.54:4321/projects/juegos-3d/01-zelda">Zelda</a></b>).
+          </p>
         </article>
       </section>
 
       <!-- Blog Preview Section -->
-      <section class="animate">
+      <section id="blog" class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
@@ -111,7 +116,7 @@ const projects = (await getCollection("projects"))
       </section>
 
       <!-- Project Preview Section -->
-      <section class="animate">
+      <section id="projects" class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
@@ -135,3 +140,24 @@ const projects = (await getCollection("projects"))
     </div>
   </div>
 </PageLayout>
+
+<style>
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+</style>
