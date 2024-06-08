@@ -80,16 +80,16 @@ export const LINKS: Links = [
     HREF: "/wiki", 
   },
   { 
+    TEXT: "Brosflix", 
+    HREF: "https://brosflix.vercel.app/", 
+  },
+  { 
     TEXT: "YT", 
     HREF: "/youtube", 
   },
   { 
     TEXT: "RS", 
     HREF: "/redes-sociales", 
-  },
-  { 
-    TEXT: "Contacto", 
-    HREF: "/contacto", 
   },
   { 
     TEXT: "Status", 
