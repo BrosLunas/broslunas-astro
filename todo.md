@@ -11,7 +11,7 @@
 
 <button class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend" id="spoiler-button">SPOILER</button>
 <div id="spoiler-content" class="hidden">
-    <img src="/img/wiki/leer-wiki.png" alt="Imagen Spoiler">
+    <img src="spoiler.png" alt="Imagen Spoiler">
 </div>
 
 

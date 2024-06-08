@@ -81,7 +81,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "YT", 
-    HREF: "/yt", 
+    HREF: "/youtube", 
   },
   { 
     TEXT: "Contacto", 
