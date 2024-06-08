@@ -5,7 +5,6 @@ import ArrowCard from "@components/ArrowCard"
 import { SITE } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
-import Spoiler from "@components/Spoiler.astro"
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)

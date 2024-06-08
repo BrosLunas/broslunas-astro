@@ -2,8 +2,8 @@ import type { Site, Page, Links } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Broslunas Center",
-  DESCRIPTION: "Bienvenidos a Broslunas Center, Un portafolio web para desarrolladores.",
+  TITLE: "Broslunas",
+  DESCRIPTION: "Bienvenidos a Broslunas Center, Un portfolio web para desarrolladores.",
   AUTHOR: "Broslunas",
 }
 
@@ -43,6 +43,12 @@ export const WIKI: Page = {
   DESCRIPTION: "Mira la wiki de cada proyecto.",
 }
 
+// YT Page 
+export const YOUTUBE: Page = {
+  TITLE: "Youtube",
+  DESCRIPTION: "Mira mis ultimos videos de youtube.",
+}
+
 //Status Page
 export const STATUS: Page = {
   TITLE: "Status",
@@ -72,6 +78,10 @@ export const LINKS: Links = [
   { 
     TEXT: "Wiki", 
     HREF: "/wiki", 
+  },
+  { 
+    TEXT: "YT", 
+    HREF: "/yt", 
   },
   { 
     TEXT: "Contacto", 
