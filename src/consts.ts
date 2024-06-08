@@ -84,6 +84,10 @@ export const LINKS: Links = [
     HREF: "/youtube", 
   },
   { 
+    TEXT: "RS", 
+    HREF: "/redes-sociales", 
+  },
+  { 
     TEXT: "Contacto", 
     HREF: "/contacto", 
   },
