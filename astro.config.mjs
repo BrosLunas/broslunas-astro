@@ -11,8 +11,8 @@ export default defineConfig({
   redirects: {
     '/projects/minecraft': '/projects',
     '/projects/juegos': '/projects',
-    '/yt': '/youtube',
-    '/sn': '/social-network',
-    '/social-network': '/redes-sociales',
+    '/yt': '/youtube?source=shortlink',
+    '/sn': '/social-network?source=shortlink',
+    '/social-network': '/redes-sociales?source=shortlink',
   }
 })
