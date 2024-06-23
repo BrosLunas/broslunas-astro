@@ -4,8 +4,8 @@ summary: "He creado un sitio web para ver series y peliculas gratis"
 date: "06 08 2024"
 draft: false
 tags:
+- Cancelado
 - Brosflix
-- Astro
 repoUrl: https://github.com/BrosLunas/brosflix
 ---
 # ESTE PROJECTO A SIDO CANCELADO DEVIDO AL POCO PRESUPUESTO
