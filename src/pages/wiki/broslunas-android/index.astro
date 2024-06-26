@@ -1,0 +1,164 @@
+---
+import PageLayout from "@layouts/PageLayout.astro"
+import { SITE } from "@consts"
+import TwinklingStars from "@components/TwinklingStars.astro"
+import MeteorShower from "@components/MeteorShower.astro"
+
+---
+
+<PageLayout title="Broslunas Android" description={SITE.DESCRIPTION}>
+
+  <!-- Light Mode: Particles -->
+  <div class='absolute inset-0 block dark:hidden'>
+    <div id='particles1' class='fixed inset-0'></div>
+    <div id='particles2' class='fixed inset-0'></div>
+    <div id='particles3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Stars -->
+  <div class='absolute inset-0 bg-black hidden dark:block'>
+    <div id='stars1' class='fixed inset-0'></div>
+    <div id='stars2' class='fixed inset-0'></div>
+    <div id='stars3' class='fixed inset-0'></div>
+  </div>
+
+  <!-- Dark Theme: Twinkling Stars / Metors -->
+  <div id="galaxy" class="fixed inset-0">
+    <div class="hidden dark:block">
+      <TwinklingStars/>
+      <MeteorShower/>
+    </div>
+  </div>
+
+  <script is:inline src="/js/bg.js"></script>
+  
+  <!-- HERO -->
+  <section class="relative h-screen w-full">
+    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
+      <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[250vw] min-h-[100vh] aspect-square rounded-full p-[1px] bg-gradient-to-b from-black/25 dark:from-white/75 from-0% to-transparent to-5%'>
+        <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
+          <div id="blur" class='w-full h-20 rounded-full bg-neutral-900/25 dark:bg-white/25 blur-3xl'/>
+        </div>
+      </div>
+    </div>
+    <div class="animate absolute h-full w-full flex items-center justify-center">
+      <div class='relative w-full h-full flex items-center justify-center'>
+        <div class='p-5 text-center'>
+          <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
+            WIKI
+          </p>
+          <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
+            Broslunas Android
+          </p>
+          <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
+            <a href='/projects/broslunas-android/' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              Volver al projecto
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="relative bg-white dark:bg-black">
+    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
+      <!-- De que trata -->
+      <section class="animate">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white">Informacion</h1>
+        <article>
+            <p>
+                En el estupendo dia de hoy he decidido crear una version apk de nuestro sitio web para dispositivos Android muy facil de descargar y de usar.
+            </p>
+        </article>
+      </section>
+
+      <!-- Requisitos -->
+      <section class="animate">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white">Requisitos</h1>
+        <article>
+            <p>
+                Para poder usar la version apk de <b>Broslunas Desktop</b>, es necesario tener un dispositivo Android da igual la version de que estes utilizando siempre y cuando sea <b>Android 5</b> o superior.
+            </p>
+        </article>
+      </section>
+
+      <!-- Descarga -->
+      <section class="animate">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white">Descargar</h1>
+        <article>
+            <p>
+                Puedes descargarlo haciendo click en el enlace que se encuentra a continiuacion
+            </p>
+            <p>
+                <li><b>Mega:</b> <a target="_blank" href="https://mega.nz/folder/UxhGHYhZ">Haz Click Aqui</a> (<i>Recomendado</i>)
+                    <button class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend" id="spoiler-button">Contraseña</button>
+                    <div id="spoiler-content" class="hidden">
+                        <p><b>Gb9rzml-yoiGa57LuZ_cIQ</b></p>
+                    </div>
+                </li> 
+                <li><b>Local:</b> <a href="/downloads/android/broslunas-v1.0.0.apk">Haz Click Aqui</a></li>
+                
+                
+            </p>
+        </article>
+      </section>
+
+      <!-- Video  -->
+      <section class="animate">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white">Como descargar y utilizar</h1>
+        <article>
+            <p>
+                Aqui le dejamos un corto video de como descargar y abrir la app
+            </p>
+            <video class="container" loop controls muted>
+                <source src="/video/android.mp4" type="video/mp4">
+            </video>
+        </article>
+      </section>
+    </div>
+  </div>
+</PageLayout>
+
+
+<style>
+    .hidden {
+    display: none;
+    }
+
+    #spoiler-content {
+    margin-top: 10px;
+    }
+
+    button {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    button:hover{
+    border: 1px solid;
+    border-radius: 25px;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('spoiler-button');
+    const content = document.getElementById('spoiler-content');
+
+    if (button && content) {
+        button.addEventListener('click', function() {
+            content.classList.toggle('hidden');
+        });
+    } else {
+        if (!button) {
+            console.error("El botón con el ID 'spoiler-button' no se encontró en el DOM.");
+        }
+        if (!content) {
+            console.error("El contenido con el ID 'spoiler-content' no se encontró en el DOM.");
+        }
+    }
+});
+</script>
