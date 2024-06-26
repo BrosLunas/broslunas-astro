@@ -1,7 +1,7 @@
 ---
 title: "Brosflix [Cancelado]"
 summary: "He creado un sitio web para ver series y peliculas gratis"
-date: "08 06 2024"
+date: "06 08 2024"
 draft: false
 tags:
 - Cancelado
