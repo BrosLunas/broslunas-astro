@@ -6,6 +6,7 @@ draft: false
 tags:
 - Juego
 - 2D
+- Desktop
 demoUrl: https://mario-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/mario-broslunas
 wikiUrl: /wiki/juegos/2d/mario/

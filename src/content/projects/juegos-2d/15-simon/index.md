@@ -6,6 +6,8 @@ draft: false
 tags:
 - Juego
 - 2D
+- Desktop
+- Android
 demoUrl: https://games-broslunas.vercel.app/game/demo/15-simon/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/15-simon/
 wikiUrl: /wiki/juegos/2d/simon/

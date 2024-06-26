@@ -6,6 +6,8 @@ draft: false
 tags:
 - Juego
 - 2D
+- Desktop
+- Android
 demoUrl: https://uno-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/uno-broslunas
 wikiUrl: /wiki/juegos/2d/uno/

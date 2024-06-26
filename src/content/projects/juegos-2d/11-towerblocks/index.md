@@ -6,6 +6,8 @@ draft: false
 tags:
 - Juego
 - 2D
+- Desktop
+- Android
 demoUrl: https://games-broslunas.vercel.app/game/demo/11-towerblocks/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/11-towerblocks/
 wikiUrl: /wiki/juegos/2d/towerblocks/

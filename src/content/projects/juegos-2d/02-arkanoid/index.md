@@ -6,6 +6,7 @@ draft: false
 tags:
 - Juego
 - 2D
+- Desktop
 demoUrl: https://games-broslunas.vercel.app/game/demo/02-arkanoid-game/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/02-arkanoid-game
 wikiUrl: /wiki/juegos/2d/arkanoid/
