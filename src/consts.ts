@@ -80,6 +80,10 @@ export const LINKS: Links = [
     HREF: "/wiki", 
   },
   { 
+    TEXT: "GxP", 
+    HREF: "https://broslunas-gxp.vercel.app/", 
+  },
+  { 
     TEXT: "YT", 
     HREF: "/youtube", 
   },
