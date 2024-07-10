@@ -72,10 +72,6 @@ export const LINKS: Links = [
     HREF: "/projects", 
   },
   { 
-    TEXT: "Juegos", 
-    HREF: "/juegos", 
-  },
-  { 
     TEXT: "Wiki", 
     HREF: "/wiki", 
   },
@@ -84,12 +80,12 @@ export const LINKS: Links = [
     HREF: "https://brosflix.vercel.app/", 
   },
   { 
-    TEXT: "YT", 
-    HREF: "/youtube", 
+    TEXT: "AiQr", 
+    HREF: "https://broslunas-aiqr.vercel.app/", 
   },
   { 
-    TEXT: "RS", 
-    HREF: "/redes-sociales", 
+    TEXT: "YT", 
+    HREF: "/youtube", 
   },
   { 
     TEXT: "Status", 
