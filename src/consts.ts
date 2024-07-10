@@ -34,7 +34,7 @@ export const CONTACTO: Page = {
 // Juegos Page 
 export const JUEGOS: Page = {
   TITLE: "Juegos",
-  DESCRIPTION: "Mira todos los ultimos juegos lanzados.",
+  DESCRIPTION: "Mira todos los últimos juegos lanzados.",
 }
 
 // Wiki Page 
@@ -45,8 +45,8 @@ export const WIKI: Page = {
 
 // YT Page 
 export const YOUTUBE: Page = {
-  TITLE: "Youtube",
-  DESCRIPTION: "Mira mis ultimos videos de youtube.",
+  TITLE: "YouTube",
+  DESCRIPTION: "Mira mis últimos videos de YouTube.",
 }
 
 //Status Page
@@ -58,7 +58,7 @@ export const STATUS: Page = {
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Buscar",
-  DESCRIPTION: "Buscar cualquier publicacion o proyecto.",
+  DESCRIPTION: "Buscar cualquier publicación o proyecto.",
 }
 
 // Links

@@ -3,7 +3,7 @@ title: "Política de Privacidad"
 date: "05/04/2024"
 ---
 
-Esta Política de Privacidad rige la manera en que Broslunas Center recopila, utiliza, mantiene y divulga información recopilada de los usuarios del sitio web [Broslunas Center](https://broslunas.vercel.app). Esta política de privacidad se aplica al Sitio y a todos los productos y servicios ofrecidos por Broslunas Center.
+Esta Política de Privacidad rige la manera en que Broslunas Center recopila, utiliza, mantiene y divulga información recopilada de los usuarios del sitio web [Broslunas Center](/). Esta política de privacidad se aplica al Sitio y a todos los productos y servicios ofrecidos por Broslunas Center.
 
 ## Información de Identificación Personal
 Recopilamos información de identificación personal, como su nombre, dirección de correo electrónico, dirección postal, número de teléfono, etc., solo cuando usted nos la proporciona voluntariamente, por ejemplo, al registrarse en nuestro sitio, suscribirse a nuestro boletín informativo, realizar una compra o completar un formulario en línea.

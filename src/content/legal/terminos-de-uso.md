@@ -3,7 +3,7 @@ title: "Terminos de Uso"
 date: "05/04/2024"
 ---
 
-Lea atentamente estos Términos de Uso antes de utilizar el sitio web [Broslunas Center](https://broslunas.vercel.app) operado por Broslunas. Al acceder y utilizar este Servicio, usted acepta cumplir con estos Términos. Si no está de acuerdo con alguna parte de los términos, no puede acceder al Servicio.
+Lea atentamente estos Términos de Uso antes de utilizar el sitio web [Broslunas Center](/) operado por Broslunas. Al acceder y utilizar este Servicio, usted acepta cumplir con estos Términos. Si no está de acuerdo con alguna parte de los términos, no puede acceder al Servicio.
 
 ## Acuerdo de Términos
 Al acceder al Servicio, usted acepta estar sujeto a estos Términos y condiciones de uso. Estos Términos constituyen el acuerdo completo entre usted y Broslunas Center con respecto a su uso del Servicio, y reemplazan cualquier acuerdo previo o contemporáneo entre usted y nosotros.

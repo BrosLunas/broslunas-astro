@@ -4,5 +4,10 @@
   },
   "CodeGPT.apiKey": "Nvidia",
   "CodeGPT.Autocomplete.enabled": true,
-  "CodeGPT.Autocomplete.provider": "Ollama - llama3:70b-instruct"
+  "CodeGPT.Autocomplete.provider": "Ollama - llama3:70b-instruct",
+  "cSpell.words": [
+    "Brosflix",
+    "Broslunas",
+    "YOUTUBE"
+  ]
 }
