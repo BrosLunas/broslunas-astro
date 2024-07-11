@@ -40,5 +40,5 @@ export default function ArrowCard({entry, pill}: Props) {
         <polyline points="12 5 19 12 12 19" class="translate-x-0 group-hover:translate-x-1 transition-all duration-300 ease-in-out" />
       </svg>
     </a>
-   )
+  )
 }

@@ -1,6 +1,20 @@
 ---
 import Container from "@components/Container.astro"
+import { getCollection } from "astro:content"
+import FooterProjects from "@components/FooterProjects"
+
+const posts = (await getCollection("blog"))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,5)
+
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,5)
 ---
+
+
 
 <footer class="relative bg-white dark:bg-black">
   <div class="animate">
@@ -19,7 +33,68 @@ import Container from "@components/Container.astro"
         </div>
       </Container>
     </section>
-  
+    
+    <section class="bg-muted px-6 py-12 w-full flex justify-center items-center">
+      <div class="max-w-7xl grid grid-cols-1 sm:grid-cols-5 gap-8 text-sm w-full">
+        <div class="grid gap-1 text-center">
+          <h2 class="font-semibold">Páginas</h2>
+          <a class="mt-3 text-black dark:text-white" href="/">Inicio</a>
+          <a class="mt-3 text-black dark:text-white" href="/broslunas">Broslunas</a>
+          <a class="mt-3 text-black dark:text-white" href="/projects">Proyectos</a>
+          <a class="mt-3 text-black dark:text-white" href="/blog">Blog</a>
+          <a class="mt-3 text-black dark:text-white" href="/wiki">Wiki</a>
+          <a class="mt-3 text-black dark:text-white" href="https://hetrixtools.com/r/b0333544f0759908d2f94f81a19cfd62/">Status</a>
+
+        </div>
+        <div class="grid gap-1 text-center">
+          <h2 class="font-semibold">Ultimos Proyectos</h2>
+          <ul class="space-y-4">
+            {projects.map((project) => (
+              <li>
+                <FooterProjects entry={project}/>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="grid gap-1 text-center">
+          <h2 class="font-semibold">Proyectos Importantes</h2>
+          <a class="mt-3 text-black dark:text-white" href="https://broslunas-aiqr.vercel.app">AI Qr</a>
+          <a class="mt-3 text-black dark:text-white" href="https://brosflix.vercel.app">Brosflix</a>
+          <a class="mt-3 text-black dark:text-white" href="/blog/broslunas">App</a>
+          <a class="mt-3 text-black dark:text-white" href="https://zelda-broslunas.vercel.app/">Zelda</a>
+          <a class="mt-3 text-black dark:text-white" href="https://mario-broslunas.vercel.app/">Mario</a>
+          <a class="mt-3 text-black dark:text-white" href="https://uno-broslunas.vercel.app/">Uno</a>
+
+        </div>
+        <div class="grid gap-1 text-center">
+          <h2 class="font-semibold">Ultimos Post</h2>
+          <ul class="space-y-4">
+            {posts.map((post) => (
+              <li>
+                <FooterProjects entry={post} />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="grid gap-1 text-center">
+          <h2 class="font-semibold">Otros</h2>
+          <div class="flex flex-wrap gap-1 items-center justify-center" >
+            <a class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" href="mailto:pablo.luna.perez.008@gmail.com">
+              <img src="/svg/email.svg"/>
+            </a>
+            <a class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" href="https://www.instagram.com/_pablito_luna_/">
+              <img src="/svg/instagram.svg"/>
+            </a>
+            <a class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" href="/contacto">
+              <img src="/svg/contact.svg"/>
+            </a>
+          </div>
+          <a class="mt-3 text-black dark:text-white" href="/legal/terminos-de-uso">Términos</a>
+          <a class="mt-3 text-black dark:text-white" href="/legal/politica-de-privacidad">Privacidad</a>
+        </div>
+      </div>
+    </section>
+
     <section class="py-5 overflow-hidden whitespace-nowrap border-t border-black/10 dark:border-white/25">
       <Container size="md">
         <div class="h-full grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -38,13 +113,31 @@ import Container from "@components/Container.astro"
           </div>
           <div class="order-1 sm:order-2 flex justify-center sm:justify-end">
             <div class="flex flex-wrap gap-1 items-center justify-center">
-              <a href="/"><img src="/svg/home.svg"/></a>
-              <a href="/sn"><img src="/svg/share.svg"/></a>
-              <a href="/yt"><img src="/svg/yt.svg"/></a>
-              <a target="_blank" href="https://www.instagram.com/_pablito_luna_/"><img src="/svg/instagram.svg"/></a>
-              <a target="_blank" href="https://www.x.com/Broslunas/"><img src="/svg/x.svg"/></a>
-              <a target="_blank" href="https://www.reddit.com/user/BrosLunas/"><img src="/svg/reddit.svg"/></a>
-              <a target="_blank" href="https://github.com/BrosLunas/"><img src="/svg/github.svg"/></a>
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              href="/"><img src="/svg/home.svg"/></a>
+
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              href="/sn"><img src="/svg/share.svg"/></a>
+
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              href="/yt"><img src="/svg/yt.svg"/></a>
+
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              target="_blank" href="https://www.instagram.com/_pablito_luna_/"><img src="/svg/instagram.svg"/></a>
+
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              target="_blank" href="https://www.x.com/Broslunas/"><img src="/svg/x.svg"/></a>
+
+              <a 
+              class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" 
+              target="_blank" href="https://www.reddit.com/user/BrosLunas/"><img src="/svg/reddit.svg"/></a>
+
+              <a class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend" target="_blank" href="https://github.com/BrosLunas/"><img src="/svg/github.svg"/></a>
             </div>
         </div>
       </Container>
