@@ -6,7 +6,7 @@ import MeteorShower from "@components/MeteorShower.astro"
 
 ---
 
-<PageLayout title="Formulario Enviado" description={SITE.DESCRIPTION}>
+<PageLayout title="Broslunas" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>
@@ -48,17 +48,20 @@ import MeteorShower from "@components/MeteorShower.astro"
             Broslunas
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Formulario Enviado
+            Sobre Mi
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Tu formulario ha sido enviado correctamente
+            Developer Frontend, con algo de Backend
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/contacto' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
-              Enviar otro formulario
+            <a href='#/blog' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+              Blog
             </a>
             <a href='/' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
               Inicio
+            </a>
+            <a href='/projects' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
+              Projectos
             </a>
           </div>
         </div>
