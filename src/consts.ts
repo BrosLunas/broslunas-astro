@@ -76,6 +76,10 @@ export const LINKS: Links = [
     HREF: "/wiki", 
   },
   { 
+    TEXT: "Cloud", 
+    HREF: "https://broslunas-cloud.rf.gd/", 
+  },
+  { 
     TEXT: "Brosflix", 
     HREF: "https://brosflix.vercel.app/", 
   },
