@@ -6,7 +6,7 @@ import MeteorShower from "@components/MeteorShower.astro"
 
 ---
 
-<PageLayout title="Broslunas" description={SITE.DESCRIPTION}>
+<PageLayout title="Sobre mi" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>
@@ -68,4 +68,18 @@ import MeteorShower from "@components/MeteorShower.astro"
       </div>
     </div>
   </section>
+
+  <div class="relative bg-white dark:bg-black">
+    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
+
+      <!-- About Section -->
+      <section id="about" class="animate">
+        <article>
+          <p>
+            Soy un desarrollador web que se encuentra trabajando en un proyecto de <a href="https://astro.build">Astro</a>, entre otros muchos proyectos (<a href="/projects/broslunas-cloud">Cloud</a>, <a href="/projects/qrai">QR AI</a>, <a href="/blog/broslunas">App</a>, <a href="/projects/brosflix">Brosflix</a>, entre otros muchos que podras encontrar en la pagina de <a href="/projects/"><b>Proyectos</b></a>).
+          </p>
+        </article>
+      </section>
+    </div>
+  </div>
 </PageLayout>
