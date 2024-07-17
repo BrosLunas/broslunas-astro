@@ -8,8 +8,8 @@ tags:
 - 2D
 - Desktop
 - Android
-demoUrl: https://games-broslunas.vercel.app/game/demo/03-tetris/
-repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/03-tetris
+demoUrl: https://games-broslunas.vercel.app/03-tetris/
+repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/03-tetris
 wikiUrl: /wiki/juegos/2d/tetris/
 ---
 

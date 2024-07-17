@@ -8,8 +8,8 @@ tags:
 - 2D
 - Desktop
 - Android
-demoUrl: https://games-broslunas.vercel.app/game/demo/08-coloron/
-repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/game/demo/08-coloron/
+demoUrl: https://games-broslunas.vercel.app/08-coloron/
+repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/08-coloron/
 wikiUrl: /wiki/juegos/2d/coloron/
 ---
 
