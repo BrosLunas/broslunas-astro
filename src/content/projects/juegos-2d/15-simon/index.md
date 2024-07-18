@@ -1,5 +1,5 @@
 ---
-title: "Juego Simon Dice"
+title: "Juego Simon Dice (+ Demo)"
 summary: "He creado el Simon Dice en html, css y js para un navegador"
 date: "06 05 2024"
 draft: false

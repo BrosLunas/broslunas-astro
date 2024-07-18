@@ -1,5 +1,5 @@
 ---
-title: "Juego Uno Online"
+title: "Juego Uno Online (+ Demo)"
 summary: "He creado el UNO Online en html, css y js para un navegador"
 date: "05 31 2024"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Juego Ahorcado"
+title: "Juego Ahorcado (+ Demo)"
 summary: "He creado el Ahorcado en html, css y js para un navegador"
 date: "06 04 2024"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Juego Tetris"
+title: "Juego Tetris (+ Demo)"
 summary: "He creado el tetris en html, css y js para un navegador"
 date: "04 29 2024"
 draft: false

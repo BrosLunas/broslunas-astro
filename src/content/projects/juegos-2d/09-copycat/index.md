@@ -1,5 +1,5 @@
 ---
-title: "Juego Copycat"
+title: "Juego Copycat (+ Demo)"
 summary: "He creado Copycat en html, css y js para un navegador"
 date: "05 08 2024"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Juego Buscaminas"
+title: "Juego Buscaminas (+ Demo)"
 summary: "He creado el Buscaminas en html, css y js para un navegador"
 date: "05 09 2024"
 draft: false

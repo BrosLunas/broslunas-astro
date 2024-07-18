@@ -1,5 +1,5 @@
 ---
-title: "Juego snake"
+title: "Juego snake (+ Demo)"
 summary: "He creado el juego de snake en html, css y js para un navegador"
 date: "04 25 2024"
 draft: false

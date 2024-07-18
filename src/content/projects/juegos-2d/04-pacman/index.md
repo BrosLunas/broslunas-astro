@@ -1,5 +1,5 @@
 ---
-title: "Juego Pacman"
+title: "Juego Pacman (+ Demo)"
 summary: "He creado el pacman en html, css y js para un navegador"
 date: "05 02 2024"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Juego Orbita"
+title: "Juego Orbita (+ Demo)"
 summary: "He creado Orbita en html, css y js para un navegador"
 date: "05 05 2024"
 draft: false

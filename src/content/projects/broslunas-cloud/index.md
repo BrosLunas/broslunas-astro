@@ -1,5 +1,5 @@
 ---
-title: "Broslunas Cloud"
+title: "Broslunas Cloud (+ Demo)"
 summary: "He creado un sitio web en el cual puedes visualizar todos mis archivos públicos de Google Drive"
 date: "07 13 2024"
 draft: false

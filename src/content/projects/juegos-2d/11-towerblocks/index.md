@@ -1,5 +1,5 @@
 ---
-title: "Juego Tower Blocks"
+title: "Juego Tower Blocks (+ Demo)"
 summary: "He creado el Tower Blocks en html, css y js para un navegador"
 date: "05 10 2024"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Broslunas IA Qr"
+title: "Broslunas IA Qr (+ Demo)"
 summary: "Un sitio web para crear Códigos Qr con IA"
 date: "07 11 2024"
 draft: false

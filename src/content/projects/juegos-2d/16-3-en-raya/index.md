@@ -1,5 +1,5 @@
 ---
-title: "Juego 3 En Raya"
+title: "Juego 3 En Raya (+ Demo)"
 summary: "He creado el 3 En Raya en html, css y js para un navegador"
 date: "06 06 2024"
 draft: false

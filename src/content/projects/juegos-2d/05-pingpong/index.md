@@ -1,5 +1,5 @@
 ---
-title: "Juego PingPong"
+title: "Juego PingPong (+ Demo)"
 summary: "He creado el pingpong en html, css y js para un navegador"
 date: "05 03 2024"
 draft: false

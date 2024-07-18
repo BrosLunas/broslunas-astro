@@ -1,5 +1,5 @@
 ---
-title: "Juego Arkanoid"
+title: "Juego Arkanoid (+ Demo)"
 summary: "He creado el juego de Arkanoid en html, css y js para un navegador"
 date: "04 26 2024"
 draft: false

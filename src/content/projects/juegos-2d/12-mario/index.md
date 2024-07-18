@@ -1,5 +1,5 @@
 ---
-title: "Juego Mario Bros"
+title: "Juego Mario Bros (+ Demo)"
 summary: "He creado el Mario Bros en html, css y js para un navegador"
 date: "05 30 2024"
 draft: false

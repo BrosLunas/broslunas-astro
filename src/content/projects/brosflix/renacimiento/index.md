@@ -1,5 +1,5 @@
 ---
-title: "Brosflix v2.0"
+title: "Brosflix v2.0 (+ Demo)"
 summary: "Brosflix ha vuelto a abrir sus puertas al mundo con una nueva función"
 date: "07 10 2024"
 draft: false
