@@ -4,8 +4,8 @@ summary: "He creado el Simon Dice en html, css y js para un navegador"
 date: "06 05 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 - Android
 demoUrl: https://games-broslunas.vercel.app/15-simon/

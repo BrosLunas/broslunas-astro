@@ -4,8 +4,8 @@ summary: "He creado el UNO Online en html, css y js para un navegador"
 date: "05 31 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 - Android
 demoUrl: https://uno-broslunas.vercel.app/

@@ -4,8 +4,8 @@ summary: "He creado el Zelda en html, js y blender para un navegador"
 date: "05 29 2024"
 draft: false
 tags:
-- Juego
-- 3D
+
+- Juego 3D
 - Desktop
 - Android
 demoUrl: https://zelda-broslunas.vercel.app/

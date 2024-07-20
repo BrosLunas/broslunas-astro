@@ -4,8 +4,8 @@ summary: "He creado el pingpong en html, css y js para un navegador"
 date: "05 03 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/05-pingpong/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/05-pingpong

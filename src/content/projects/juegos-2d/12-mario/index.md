@@ -4,8 +4,8 @@ summary: "He creado el Mario Bros en html, css y js para un navegador"
 date: "05 30 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 demoUrl: https://mario-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/mario-broslunas

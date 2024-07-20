@@ -4,8 +4,8 @@ summary: "He creado el Flappy Dino en html, css y js para un navegador"
 date: "05 04 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 - Android
 demoUrl: https://games-broslunas.vercel.app/06-flappy-dino/

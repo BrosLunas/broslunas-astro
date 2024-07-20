@@ -4,8 +4,8 @@ summary: "He creado el 3 En Raya en html, css y js para un navegador"
 date: "06 06 2024"
 draft: false
 tags:
-- Juego
-- 2D
+
+- Juego 2D
 - Desktop
 - Android
 demoUrl: https://games-broslunas.vercel.app/16-3-en-raya/

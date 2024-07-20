@@ -5,7 +5,7 @@ date: "May 2 2024"
 draft: false
 tags:
 - Bienvenida
-- Novedades
+
 ---
 
 ## Bienvenidos al primer post de Broslunas
