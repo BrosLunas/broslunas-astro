@@ -64,16 +64,20 @@ export const SEARCH: Page = {
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
-  },
-  { 
     TEXT: "Proyectos", 
     HREF: "/projects", 
   },
   { 
+    TEXT: "Blog", 
+    HREF: "/blog", 
+  },
+  { 
     TEXT: "Wiki", 
     HREF: "/wiki", 
+  },
+  { 
+    TEXT: "AiQr", 
+    HREF: "https://broslunas-aiqr.vercel.app/", 
   },
   { 
     TEXT: "Cloud", 
@@ -82,10 +86,6 @@ export const LINKS: Links = [
   { 
     TEXT: "Brosflix", 
     HREF: "https://brosflix.vercel.app/", 
-  },
-  { 
-    TEXT: "AiQr", 
-    HREF: "https://broslunas-aiqr.vercel.app/", 
   },
   { 
     TEXT: "YT", 
