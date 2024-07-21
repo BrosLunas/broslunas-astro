@@ -12,6 +12,7 @@ const { collection, data, body } = entry
 const { title, summary, date } = data
 
 const demoUrl = collection === "projects" ? data.demoUrl : null
+const linkUrl = collection === "projects" ? data.linkUrl : null
 const repoUrl = collection === "projects" ? data.repoUrl : null
 const wikiUrl = collection === "projects" ? data.wikiUrl : null
 const downloadUrl = collection === "projects" ? data.downloadUrl : null
@@ -47,12 +48,19 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || downloadUrl || repoUrl || wikiUrl) && 
+  {(demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl) && 
   <div class="mt-4 flex flex-wrap gap-2">
     {demoUrl && 
       <a href={demoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Probar Demo
+        </span>
+      </a>
+    }
+    {linkUrl && 
+      <a href={linkUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver enlace
         </span>
       </a>
     }
