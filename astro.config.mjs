@@ -14,5 +14,6 @@ export default defineConfig({
     '/yt': '/youtube?source=shortlink',
     '/sn': '/social-network?source=shortlink',
     '/social-network': '/redes-sociales?source=shortlink',
+    '/wiki': '/wikis',
   }
 })
