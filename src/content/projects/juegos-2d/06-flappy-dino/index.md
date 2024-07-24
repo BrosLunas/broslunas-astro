@@ -10,7 +10,7 @@ tags:
 - Android
 demoUrl: https://games-broslunas.vercel.app/06-flappy-dino/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/06-flappy-dino/
-wikiUrl: /wiki/juegos/2d/flappy-dino/
+wikiUrl: /wikis/juegos/2d/flappy-dino/
 ---
 
 ## Gameplay

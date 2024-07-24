@@ -9,7 +9,7 @@ tags:
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/05-pingpong/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/05-pingpong
-wikiUrl: /wiki/juegos/2d/pingpong/
+wikiUrl: /wikis/juegos/2d/pingpong/
 ---
 
 ## Gameplay

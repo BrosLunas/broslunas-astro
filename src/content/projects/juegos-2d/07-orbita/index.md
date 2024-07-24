@@ -9,7 +9,7 @@ tags:
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/07-orbita/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/07-orbita/
-wikiUrl: /wiki/juegos/2d/orbita/
+wikiUrl: /wikis/juegos/2d/orbita/
 ---
 
 ## Gameplay

@@ -9,7 +9,7 @@ tags:
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/04-pacman/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/04-pacman
-wikiUrl: /wiki/juegos/2d/pacman/
+wikiUrl: /wikis/juegos/2d/pacman/
 ---
 
 ## Gameplay

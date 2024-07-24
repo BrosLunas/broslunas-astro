@@ -10,7 +10,7 @@ tags:
 - Android
 demoUrl: https://zelda-broslunas.vercel.app/
 repoUrl: https://github.com/BrosLunas/broslunas-zelda
-wikiUrl: /wiki/juegos/3d/zelda/
+wikiUrl: /wikis/juegos/3d/zelda/
 ---
 
 ## Gameplay

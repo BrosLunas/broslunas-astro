@@ -9,7 +9,7 @@ tags:
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/10-buscaminas/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/10-buscaminas/
-wikiUrl: /wiki/juegos/2d/buscaminas/
+wikiUrl: /wikis/juegos/2d/buscaminas/
 ---
 
 ## Gameplay

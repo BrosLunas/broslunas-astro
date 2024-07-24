@@ -7,7 +7,7 @@ tags:
 - Desktop
 repoUrl: https://github.com/BrosLunas/broslunas-desktop
 downloadUrl: /downloads/desktop/broslunas-v1.0.0.rar
-wikiUrl: /wiki/broslunas-desktop/
+wikiUrl: /wikis/desktop/
 ---
 # Que es Broslunas Desktop
 Broslunas desktop es una version portable de la pagina web para windows

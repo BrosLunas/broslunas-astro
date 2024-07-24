@@ -9,7 +9,7 @@ tags:
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/14-ahorcado/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/14-ahorcado/
-wikiUrl: /wiki/juegos/2d/ahorcado/
+wikiUrl: /wikis/juegos/2d/ahorcado/
 ---
 
 ## Gameplay

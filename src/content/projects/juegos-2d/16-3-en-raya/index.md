@@ -10,7 +10,7 @@ tags:
 - Android
 demoUrl: https://games-broslunas.vercel.app/16-3-en-raya/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/16-3-en-raya/
-wikiUrl: /wiki/juegos/2d/3-en-raya/
+wikiUrl: /wikis/juegos/2d/3-en-raya/
 ---
 
 ## Gameplay

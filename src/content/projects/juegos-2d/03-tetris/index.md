@@ -10,7 +10,7 @@ tags:
 - Android
 demoUrl: https://games-broslunas.vercel.app/03-tetris/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/03-tetris
-wikiUrl: /wiki/juegos/2d/tetris/
+wikiUrl: /wikis/juegos/2d/tetris/
 ---
 
 ## Gameplay
