@@ -16,11 +16,8 @@ En el estupendo dia de hoy he decidido crear una version portable de nuestro sit
 Para poder usar la version portable de Broslunas Desktop, es necesario tener un ordenador windows da igual la version de que estes utilizando siempre y cuando sea Windows 8 o superior
 
 # Descargar
-<li><b>Mega:</b> <a target="_blank" href="https://mega.nz/folder/l1JjnbTQ">Haz Click Aqui</a> (<i>Recomendado</i>)
-<button class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend" id="spoiler-button">Contraseña</button>
-    <div id="spoiler-content" class="hidden">
-        <p><b>VRCegWUlnntAe9jtn5XzjA</b></p>
-    </div>
+<li><b>Mega:</b> <a target="_blank" href="https://mega.nz/folder/l1JjnbTQ">Haz Click Aqui</a>
+Contraseña: <b>VRCegWUlnntAe9jtn5XzjA</b>
 </li> 
 <li><b>Local:</b> <a href="/downloads/desktop/broslunas-v1.0.0.rar">Haz Click Aqui</a></li>
 
@@ -31,47 +28,3 @@ Aquí le dejamos un corto video de como utilizar la web
 </video>
 
 > Escrito por **Broslunas**
-
-
-<style>
-    .hidden {
-    display: none;
-    }
-
-    #spoiler-content {
-    margin-top: 10px;
-    }
-
-    button {
-    padding: 10px 20px;
-    border: 1px solid;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    }
-
-    button:hover{
-    border: 1px solid;
-    border-radius: 25px;
-    }
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('spoiler-button');
-    const content = document.getElementById('spoiler-content');
-
-    if (button && content) {
-        button.addEventListener('click', function() {
-            content.classList.toggle('hidden');
-        });
-    } else {
-        if (!button) {
-            console.error("El botón con el ID 'spoiler-button' no se encontró en el DOM.");
-        }
-        if (!content) {
-            console.error("El contenido con el ID 'spoiler-content' no se encontró en el DOM.");
-        }
-    }
-});
-</script>
