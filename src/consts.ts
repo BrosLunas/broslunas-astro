@@ -43,6 +43,12 @@ export const WIKI: Page = {
   DESCRIPTION: "Mira la wiki de cada proyecto.",
 }
 
+// Wiki Page 
+export const WIKIS: Page = {
+  TITLE: "Wiki",
+  DESCRIPTION: "Mira la wiki de cada proyecto.",
+}
+
 // YT Page 
 export const YOUTUBE: Page = {
   TITLE: "YouTube",
@@ -73,7 +79,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Wiki", 
-    HREF: "/wiki", 
+    HREF: "/wikis", 
   },
   { 
     TEXT: "AiQr", 

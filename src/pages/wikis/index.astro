@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+import Wikis from "@components/Wikis"
+import { WIKIS } from "@consts"
+
+const wikis = (await getCollection("wikis"))
+  .filter(wiki => !wiki.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+
+const tags = [...new Set(wikis.flatMap(wiki => wiki.data.tags))]
+  .sort((a, b) => a.localeCompare(b))
+---
+
+<PageLayout title={WIKIS.TITLE} description={WIKIS.DESCRIPTION}>
+  <TopLayout>
+    <div class="animate page-heading">
+      {WIKIS.TITLE}
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <Wikis client:load tags={tags} data={wikis} />
+    </div>
+  </BottomLayout>
+</PageLayout>

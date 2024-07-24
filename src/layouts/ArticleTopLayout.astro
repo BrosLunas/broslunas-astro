@@ -4,7 +4,7 @@ import { formatDate, readingTime } from "@lib/utils"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 type Props = {
-  entry: CollectionEntry<"projects"> | CollectionEntry<"blog">
+  entry: CollectionEntry<"projects"> | CollectionEntry<"blog"> | CollectionEntry<"wikis">
 }
 
 const { entry } = Astro.props
@@ -16,6 +16,12 @@ const linkUrl = collection === "projects" ? data.linkUrl : null
 const repoUrl = collection === "projects" ? data.repoUrl : null
 const wikiUrl = collection === "projects" ? data.wikiUrl : null
 const downloadUrl = collection === "projects" ? data.downloadUrl : null
+
+const wikisDemoUrl = collection === "wikis" ? data.wikisDemoUrl : null
+const wikisLinkUrl = collection === "wikis" ? data.wikisLinkUrl : null
+const wikisRepoUrl = collection === "wikis" ? data.wikisRepoUrl : null
+const wikisDownloadUrl = collection === "wikis" ? data.wikisDownloadUrl : null
+const projectUrl = collection === "wikis" ? data.projectUrl : null
 ---
 <SpeedInsights/>
 <div>
@@ -29,13 +35,6 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
     </div>
   </a>
   <div class="flex flex-wrap text-sm uppercase mt-12 gap-3 opacity-75">
-    <div class="flex items-center gap-2">
-      <svg class="size-5 stroke-current">
-        <use href="/assets/svg/ui.svg#calendar"/>
-      </svg>
-      {formatDate(date)}
-    </div>
-    <div class="flex items-center gap-2">
       <svg class="size-5 stroke-current">
         <use href="/assets/svg/ui.svg#book-open"/>
       </svg>
@@ -48,12 +47,26 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl) && 
+  {(demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl || projectUrl || wikisDemoUrl || wikisLinkUrl || wikisRepoUrl || wikisDownloadUrl) && 
   <div class="mt-4 flex flex-wrap gap-2">
+    {wikisDemoUrl && 
+      <a href={wikisDemoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Probar Demo
+        </span>
+      </a>
+    }
     {demoUrl && 
       <a href={demoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Probar Demo
+        </span>
+      </a>
+    }
+    {wikisLinkUrl && 
+      <a href={wikisLinkUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver enlace
         </span>
       </a>
     }
@@ -66,6 +79,13 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
     }
     {repoUrl && 
       <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver Repositorio
+        </span>
+      </a>
+    }
+    {wikisRepoUrl && 
+      <a href={wikisRepoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Ver Repositorio
         </span>
@@ -85,6 +105,20 @@ const downloadUrl = collection === "projects" ? data.downloadUrl : null
         </span>
       </a>
     }
+    {wikisDownloadUrl && 
+      <a href={wikisDownloadUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Descargar
+        </span>
+      </a>
+    }
+    {projectUrl && 
+      <a href={projectUrl} class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver Proyecto
+        </span>
+      </a>
+    }
   </div> 
-   }
+  }
 </div>
