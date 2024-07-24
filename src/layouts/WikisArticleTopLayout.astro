@@ -4,18 +4,12 @@ import { formatDate, readingTime } from "@lib/utils"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 type Props = {
-  entry: CollectionEntry<"projects"> | CollectionEntry<"blog"> | CollectionEntry<"wikis">
+  entry: CollectionEntry<"wikis">
 }
 
 const { entry } = Astro.props
 const { collection, data, body } = entry
 const { title, summary, date } = data
-
-const demoUrl = collection === "projects" ? data.demoUrl : null
-const linkUrl = collection === "projects" ? data.linkUrl : null
-const repoUrl = collection === "projects" ? data.repoUrl : null
-const wikiUrl = collection === "projects" ? data.wikiUrl : null
-const downloadUrl = collection === "projects" ? data.downloadUrl : null
 
 const wikisDemoUrl = collection === "wikis" ? data.wikisDemoUrl : null
 const wikisLinkUrl = collection === "wikis" ? data.wikisLinkUrl : null
@@ -34,14 +28,7 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
       Volver a {collection}
     </div>
   </a>
-  <div class="flex flex-wrap text-sm uppercase mt-12 gap-3 opacity-75">
-    <div class="flex items-center gap-2">
-      <svg class="size-5 stroke-current">
-        <use href="/assets/svg/ui.svg#calendar"/>
-      </svg>
-      {formatDate(date)}
-    </div>
-    <div class="flex items-center gap-2">
+    <div class="flex flex-wrap text-sm uppercase mt-12 gap-3 opacity-75">
       <svg class="size-5 stroke-current">
         <use href="/assets/svg/ui.svg#book-open"/>
       </svg>
@@ -54,17 +41,10 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl || projectUrl || wikisDemoUrl || wikisLinkUrl || wikisRepoUrl || wikisDownloadUrl) && 
+  {( projectUrl || wikisDemoUrl || wikisLinkUrl || wikisRepoUrl || wikisDownloadUrl) && 
   <div class="mt-4 flex flex-wrap gap-2">
     {wikisDemoUrl && 
       <a href={wikisDemoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
-        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          Probar Demo
-        </span>
-      </a>
-    }
-    {demoUrl && 
-      <a href={demoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Probar Demo
         </span>
@@ -77,38 +57,10 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
         </span>
       </a>
     }
-    {linkUrl && 
-      <a href={linkUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
-        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          Ver enlace
-        </span>
-      </a>
-    }
-    {repoUrl && 
-      <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
-        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          Ver Repositorio
-        </span>
-      </a>
-    }
     {wikisRepoUrl && 
       <a href={wikisRepoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Ver Repositorio
-        </span>
-      </a>
-    }
-    {wikiUrl && 
-      <a href={wikiUrl} class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
-        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          Leer Wiki
-        </span>
-      </a>
-    }
-    {downloadUrl && 
-      <a href={downloadUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
-        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          Descargar
         </span>
       </a>
     }
