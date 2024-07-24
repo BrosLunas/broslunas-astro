@@ -13,6 +13,6 @@ wikiUrl: /wiki/juegos/2d/orbita/
 ---
 
 ## Gameplay
-[![Orbita Game](/img/games/orbita.png)](/video/gameplay/orbita.mp4)
+[![Orbita Game](/assets/img/games/orbita.png)](/assets/video/gameplay/orbita.mp4)
 
 > Escrito por **Broslunas**

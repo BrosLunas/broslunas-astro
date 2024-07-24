@@ -14,6 +14,6 @@ wikiUrl: /wiki/juegos/2d/3-en-raya/
 ---
 
 ## Gameplay
-[![Ahorcado Game](/img/games/3-en-raya.png)](/video/gameplay/3-en-raya.mp4)
+[![Ahorcado Game](/assets/img/games/3-en-raya.png)](/assets/video/gameplay/3-en-raya.mp4)
 
 > Escrito por **Broslunas**

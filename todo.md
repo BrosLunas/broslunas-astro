@@ -67,19 +67,19 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <img src="/img/end-xpansion/content.png" alt="Imagen 1">
+                        <img src="/assets/img/end-xpansion/content.png" alt="Imagen 1">
                         <p>Contenido</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/end-xpansion/armor.png" alt="Imagen 2">
+                        <img src="/assets/img/end-xpansion/armor.png" alt="Imagen 2">
                         <p>Armadura</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/end-xpansion/ore.png" alt="Imagen 3">
+                        <img src="/assets/img/end-xpansion/ore.png" alt="Imagen 3">
                         <p>Ores</p>
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/end-xpansion/structure.png" alt="Imagen 4">
+                        <img src="/assets/img/end-xpansion/structure.png" alt="Imagen 4">
                         <p>Estructura</p>
                     </div>
                 </div>

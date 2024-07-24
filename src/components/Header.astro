@@ -13,7 +13,7 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
     <div class="relative h-full w-full">
       <div class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold">
         <a href="/" class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
-          <img src="/svg/favicon.svg">
+          <img src="/assets/svg/favicon.svg">
           <div class="text-align: justify">
             {SITE.TITLE}
           </div>
@@ -34,29 +34,29 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
     <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
       <a href="/search" aria-label={`Buscar en ${SITE.TITLE}`} class={cn("hidden md:flex", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out", pathname === "/search" || "/" + subpath?.[0] === "/search" ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black" : "")}>
         <svg class="size-full">
-          <use href="/ui.svg#search"></use>
+          <use href="/assets/svg/ui.svg#search"></use>
         </svg>
       </a>
 
       <button id="header-theme-button" aria-label={`Cambiar a tema claro`} class={cn("hidden md:flex", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
         <svg class="size-full block dark:hidden">
-          <use href="/ui.svg#sun"></use>
+          <use href="/assets/svg/ui.svg#sun"></use>
         </svg>
         <svg class="size-full hidden dark:block">
-          <use href="/ui.svg#moon"></use>
+          <use href="/assets/svg/ui.svg#moon"></use>
         </svg>
       </button>
       
       <a class="hidden md:flex size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25transition-colors duration-300 ease-in-out" target="_blank" href="https://github.com/BrosLunas/broslunas-astro">
-        <img src="/svg/github.svg"/>
+        <img src="/assets/svg/github.svg"/>
       </a>
 
       <button id="header-drawer-button" aria-label={`Cambiar a tema oscuro`} class={cn("flex md:hidden", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
         <svg id="drawer-open" class="size-full">
-          <use href="/ui.svg#menu"></use>
+          <use href="/assets/svg/ui.svg#menu"></use>
         </svg>
         <svg id="drawer-close" class="size-full">
-          <use href="/ui.svg#x"></use>
+          <use href="/assets/svg/ui.svg#x"></use>
         </svg>
       </button>
     </div>

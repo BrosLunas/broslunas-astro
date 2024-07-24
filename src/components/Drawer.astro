@@ -19,16 +19,16 @@ const subpath = pathname.match(/[^/]+/g)
   <div class="flex gap-1 mt-5">
     <a href="/search" aria-label={`Busca publicaciones y projectos de ${SITE.TITLE}`} class={cn("size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out", pathname === "/search" || "/" + subpath?.[0] === "search" ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black" : "")}>
       <svg class="size-full">
-        <use href="/ui.svg#search"></use>
+        <use href="/assets/svg/ui.svg#search"></use>
       </svg>
     </a>
 
     <button id="drawer-theme-button" aria-label={`Toggle light and dark theme`} class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out">
       <svg class="block dark:hidden size-full">
-        <use href="/ui.svg#sun"></use>
+        <use href="/assets/svg/ui.svg#sun"></use>
       </svg>
       <svg class="hidden dark:block size-full">
-        <use href="/ui.svg#moon"></use>
+        <use href="/assets/svg/ui.svg#moon"></use>
       </svg>
     </button>
   </div>

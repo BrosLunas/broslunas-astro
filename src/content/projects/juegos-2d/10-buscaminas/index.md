@@ -13,6 +13,6 @@ wikiUrl: /wiki/juegos/2d/buscaminas/
 ---
 
 ## Gameplay
-[![Buscaminas Game](/img/games/buscaminas.png)](/video/gameplay/buscaminas.mp4)
+[![Buscaminas Game](/assets/img/games/buscaminas.png)](/assets/video/gameplay/buscaminas.mp4)
 
 > Escrito por **Broslunas**

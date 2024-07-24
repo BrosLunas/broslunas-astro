@@ -14,6 +14,6 @@ wikiUrl: /wiki/juegos/2d/simon/
 ---
 
 ## Gameplay
-[![Ahorcado Game](/img/games/simon.png)](/video/gameplay/simon.mp4)
+[![Ahorcado Game](/assets/img/games/simon.png)](/assets/video/gameplay/simon.mp4)
 
 > Escrito por **Broslunas**

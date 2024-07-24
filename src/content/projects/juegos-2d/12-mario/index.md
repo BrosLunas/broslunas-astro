@@ -13,6 +13,6 @@ wikiUrl: /wiki/juegos/2d/mario/
 ---
 
 ## Gameplay
-[![Mario Bros Game](/img/games/mario.png)](/video/gameplay/mario.mp4)
+[![Mario Bros Game](/assets/img/games/mario.png)](/assets/video/gameplay/mario.mp4)
 
 > Escrito por **Broslunas**

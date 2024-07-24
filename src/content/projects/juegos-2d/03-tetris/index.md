@@ -14,6 +14,6 @@ wikiUrl: /wiki/juegos/2d/tetris/
 ---
 
 ## Gameplay
-[![Tetris Game](/img/games/tetris.png)](/video/gameplay/tetris.mp4)
+[![Tetris Game](/assets/img/games/tetris.png)](/assets/video/gameplay/tetris.mp4)
 
 > Escrito por **Broslunas**

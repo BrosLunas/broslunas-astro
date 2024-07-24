@@ -13,6 +13,6 @@ wikiUrl: /wiki/juegos/2d/snake/
 ---
 
 ## Gameplay
-[![Snake Game](/img/games/snake.png)](/video/gameplay/snake.mp4)
+[![Snake Game](/assets/img/games/snake.png)](/assets/video/gameplay/snake.mp4)
 
 > Escrito por **Broslunas**

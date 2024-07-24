@@ -13,6 +13,6 @@ wikiUrl: /wiki/juegos/2d/arkanoid/
 ---
 
 ## Gameplay
-[![Arkanoid Game](/img/games/arkanoid.png)](/video/gameplay/arkanoid.mp4)
+[![Arkanoid Game](/assets/img/games/arkanoid.png)](/assets/video/gameplay/arkanoid.mp4)
 
 > Escrito por **Broslunas**

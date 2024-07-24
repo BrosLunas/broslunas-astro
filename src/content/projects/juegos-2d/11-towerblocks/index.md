@@ -14,6 +14,6 @@ wikiUrl: /wiki/juegos/2d/towerblocks/
 ---
 
 ## Gameplay
-[![TowerBlocks Game](/img/games/towerblocks.png)](/video/gameplay/towerblocks.mp4)
+[![TowerBlocks Game](/assets/img/games/towerblocks.png)](/assets/video/gameplay/towerblocks.mp4)
 
 > Escrito por **Broslunas**
