@@ -8,7 +8,7 @@ tags:
 - Renacimiento
 repoUrl: https://github.com/BrosLunas/brosflix
 demoUrl: https://brosflix.vercel.app
-wikiUrl: /wiki/brosflix
+wikiUrl: /wikis/brosflix
 ---
 ## Que era Brosflix
 Brosflix era un sitio web, con la función de poder ver series y películas gratis, en cualquier momento y en cualquier dispositivo, al no conseguir suficientes fondos como para poder sostenerse los developers de [Broslunas](/broslunas), han remodelado toda su estructura y su diseño para poder tener esta nueva version 2.0.

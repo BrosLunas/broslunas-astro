@@ -7,7 +7,7 @@ tags:
 - Android
 repoUrl: https://github.com/BrosLunas/broslunas-android
 downloadUrl: /downloads/android/broslunas-v1.0.3.apk
-wikiUrl: /wiki/broslunas-android/
+wikiUrl: /wikis/android/
 ---
 # Que es Broslunas Android
 Broslunas desktop es una version portable de la pagina web para windows

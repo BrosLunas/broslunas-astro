@@ -8,7 +8,7 @@ tags:
 - Qr
 repoUrl: https://github.com/BrosLunas/broslunas-aiqr
 demoUrl: https://broslunas-aiqr.vercel.app
-wikiUrl: /wiki/broslunas-aiqr
+wikiUrl: /wikis/aiqr
 ---
 ## Que es Broslunas IA Qr
 Broslunas IA Qr es un sitio web para crear Códigos Qr con IA, de forma muy sencilla y rápida.
