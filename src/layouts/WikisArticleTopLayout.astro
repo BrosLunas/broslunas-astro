@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import { formatDate, readingTime } from "@lib/utils"
+import { readingTime } from "@lib/utils"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 
 const { entry } = Astro.props
 const { collection, data, body } = entry
-const { title, summary, date } = data
+const { title, summary } = data
 
 const wikisDemoUrl = collection === "wikis" ? data.wikisDemoUrl : null
 const wikisLinkUrl = collection === "wikis" ? data.wikisLinkUrl : null
