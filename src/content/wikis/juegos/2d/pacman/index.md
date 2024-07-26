@@ -16,7 +16,7 @@ Pac-Man fue creado por el diseñador Toru Iwatani, de la empresa japonesa Namco.
 # Controles
 <b>W:</b> Mueve el personaje hacia arriba <br>
 <b>A:</b> Mueve el personaje hacia la izquierda <br>
-<b>S:</b> Mueve el personaje haia abajo <br>
+<b>S:</b> Mueve el personaje hacia abajo <br>
 <b>D:</b> Mueve el personaje hacia la derecha <br>
 
 # Video
