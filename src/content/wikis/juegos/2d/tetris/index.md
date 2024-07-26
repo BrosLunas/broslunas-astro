@@ -1,11 +1,12 @@
 ---
 title: "Tetris"
-summary: "Wiki de Snake"
+summary: "Wiki de Tetris"
 date: "08 10 2024"
 draft: false
 tags:
 - Juego 2D
 - Desktop
+- Android
 projectUrl: /projects/juegos-2d/03-tetris
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/03-tetris/
 wikisDemoUrl: https://games-broslunas.vercel.app/03-tetris/
