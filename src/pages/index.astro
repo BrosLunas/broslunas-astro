@@ -140,6 +140,30 @@ const projects = (await getCollection("projects"))
           </ul>
         </div>
       </section>
+
+      
+      <!-- About Section -->
+      <section id="about" class="animate">
+        <article>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <p class="font-semibold text-black dark:text-white">
+                Newsletter
+              </p>
+            </div>
+          <p>
+            ¿Quieres recibir una notificación por correo electronico cada vez que tengamos alguna nueva publicacion o proyecto en nuestro sitio web?
+          </p>
+          <p>
+            Es tan facil como rellenar el formulario de newsleter con tu correo electronico para autorizarnos a mandarte emails con nuestras novedades
+          </p>
+          <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-left mt-5'>
+            <a href='/contacto/newsletter' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend' style="text-decoration: none;">
+              Newsletter
+            </a>
+          </div>
+        </article>
+      </section>
     </div>
   </div>
 </PageLayout>
