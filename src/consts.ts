@@ -37,15 +37,9 @@ export const JUEGOS: Page = {
   DESCRIPTION: "Mira todos los últimos juegos lanzados.",
 }
 
-// Wiki Page 
-export const WIKI: Page = {
-  TITLE: "Wiki",
-  DESCRIPTION: "Mira la wiki de cada proyecto.",
-}
-
-// Wiki Page 
+// Wikis Page 
 export const WIKIS: Page = {
-  TITLE: "Wiki",
+  TITLE: "Wikis",
   DESCRIPTION: "Mira la wiki de cada proyecto.",
 }
 
@@ -78,7 +72,7 @@ export const LINKS: Links = [
     HREF: "/blog", 
   },
   { 
-    TEXT: "Wiki", 
+    TEXT: "Wikis", 
     HREF: "/wikis", 
   },
   { 
