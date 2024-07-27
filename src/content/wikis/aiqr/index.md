@@ -22,7 +22,7 @@ Lo único que necesitas para poder generar tu Qr es:
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/web/aiqr.mp4" type="video/mp4">
 </video>
 

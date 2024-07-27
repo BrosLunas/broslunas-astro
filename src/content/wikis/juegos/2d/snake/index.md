@@ -22,7 +22,7 @@ En el juego, el jugador controla a una serpiente, que se desplaza a velocidad co
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/snake.mp4" type="video/mp4">
 </video>
 

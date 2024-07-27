@@ -18,6 +18,6 @@ export default defineConfig({
     '/wiki/[...slug]': '/wikis/[...slug]',
     '/proyectos/[...slug]': '/projects/[...slug]',
     '/post/[...slug]': '/blog/[...slug]',
-    '/publicacion/[...slug]': '/post/[...slug]',
+    '/publicacion/[...slug]': '/blog/[...slug]',
   }
 })

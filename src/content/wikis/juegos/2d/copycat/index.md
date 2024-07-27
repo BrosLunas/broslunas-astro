@@ -23,7 +23,7 @@ En el juego, el jugador, controla dos gatos cada uno se mueve a la misma vez que
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/copycat.mp4" type="video/mp4">
 </video>
 

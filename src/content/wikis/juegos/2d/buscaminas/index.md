@@ -19,7 +19,7 @@ El concepto de buscaminas, El objetivo del juego es despejar un campo de minas s
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/buscaminas.mp4" type="video/mp4">
 </video>
 

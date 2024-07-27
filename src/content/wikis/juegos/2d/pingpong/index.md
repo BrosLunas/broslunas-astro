@@ -24,7 +24,7 @@ En resumen, intenta ser una simulación de tenis de mesa aunque en definitiva te
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/pingpong.mp4" type="video/mp4">
 </video>
 

@@ -18,7 +18,7 @@ El concepto de Orbita, tiene un concepto demasiado simple, el juego consisite en
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/orbita.mp4" type="video/mp4">
 </video>
 

@@ -23,7 +23,7 @@ El concepto de Tetris, en contraste, es asombrosamente simple: tienes que rotar 
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/gameplay/tetris.mp4" type="video/mp4">
 </video>
 

@@ -24,7 +24,7 @@ Puedes descargarlo haciendo click en el enlace que se encuentra a continiuacion
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
-<video class="container video" style="" controls muted>
+<video class="container video" controls muted>
     <source src="/assets/video/app/android.mp4" type="video/mp4">
 </video>
 
