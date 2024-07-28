@@ -13,6 +13,6 @@ wikiUrl: /wikis/desktop/
 Broslunas desktop es una version portable de la pagina web para windows
 
 # Como usar la app
-Para aprender a como usar la app haz click en el boton de arriba que pone **Leer Wiki** o haz click [AQUI](/wiki/broslunas-desktop/)
+Para aprender a como usar la app haz click en el botón de arriba que pone **Leer Wiki** o haz click [AQUÍ](/wiki/broslunas-desktop/)
 
 > Escrito por **Broslunas**

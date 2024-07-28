@@ -1,8 +1,8 @@
 import type { CollectionEntry } from "astro:content"
 
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">
-  pill?: boolean
+    entry: CollectionEntry<"blog"> | CollectionEntry<"projects">
+pill?: boolean
 }
 
 export default function FooterProjects({entry, pill}: Props) {

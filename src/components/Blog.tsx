@@ -56,7 +56,7 @@ export default function Blog({ data, tags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            MOSTRANDO {posts().length} de {data.length} PUBLICAICONES
+            MOSTRANDO {posts().length} de {data.length} PUBLICACIONES
           </div>
           <ul class="flex flex-col gap-3">
             {posts().map((post) => (

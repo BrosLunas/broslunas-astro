@@ -22,7 +22,7 @@ wikisDemoUrl: https://uno-broslunas.vercel.app/
 El UNO consiste, básicamente, en competir con otros jugadores con el objetivo de ser los primeros que nos hemos quedado sin cartas, y el primero que lo haga ganará el juego, mientras que el último que se quede sin cartas será el perdedor y encargado de repartir nuevamente.
 
 # Controles
-El juego como tal no cuenta con controles tactiles todo se hace mediante el ratón.
+El juego como tal no cuenta con controles táctiles todo se hace mediante el ratón.
 
 
 # Video

@@ -15,11 +15,11 @@ El concepto de Mario, el objetivo del juego es derrotar a todos los enemigos en 
 
 # Controles
 <b>W:</b> Saltar
-<b>A:</b> Muevete hacia la izquierda
-<b>S:</b> Agachate
-<b>D:</b> Muevete hacia la derecha
+<b>A:</b> Muévete hacia la izquierda
+<b>S:</b> Agáchate
+<b>D:</b> Muévete hacia la derecha
 <b>Shift / Ctrl:</b> Correr
-<b>M:</b> Mutear
+<b>M:</b> Silenciar
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web

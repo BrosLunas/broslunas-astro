@@ -15,7 +15,7 @@ wikisDemoUrl: https://games-broslunas.vercel.app/06-flappy-dino/
 Es un videojuego de mecánicas simples que pone al jugador en las plumas de un dinosaurio que debe esquivar los huesos a la vez que se mantiene en el aire
 
 # Controles
-<b>ESPACE:</b> Haz que el personaje salte <br>
+<b>ESPACIO:</b> Haz que el personaje salte <br>
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web

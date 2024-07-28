@@ -12,8 +12,8 @@ wikisRepoUrl: /wikis
 wikisDownloadUrl: /wikis
 ---
 ## Que es Broslunas Wiki
-Aqui podras enconctrar dentro de cada proyecto, al lado del botón de <b>Probar Demo</b> y <b>Ver Repositorio</b>, con un boton de <b>Leer Wiki</b>
-Aqui podras encontrar de que trata un juego, cuales son los controles, hasta podras ver un <b>Gameplay</b> corto del funcionamiento de este.
+Aquí podrás encontrar dentro de cada proyecto, al lado del botón de <b>Probar Demo</b> y <b>Ver Repositorio</b>, con un botón de <b>Leer Wiki</b>
+Aquí podrás encontrar de que trata un juego, cuales son los controles, hasta podrás ver un <b>Gameplay</b> corto del funcionamiento de este.
 
 
 > Escrito por **Broslunas**

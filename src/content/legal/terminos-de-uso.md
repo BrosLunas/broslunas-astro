@@ -1,5 +1,5 @@
 ---
-title: "Terminos de Uso"
+title: "Términos de Uso"
 date: "05/04/2024"
 ---
 

@@ -14,7 +14,7 @@ wikisDemoUrl: https://games-broslunas.vercel.app/10-buscaminas/
 El concepto de buscaminas, El objetivo del juego es despejar un campo de minas sin detonar ninguna.
 
 # Controles
-<b>ALT + CLICK:</b> Marcar banderita <br>
+<b>ALT + CLICK:</b> Marcar con una bandera <br>
 <b>CLICK:</b> Elimina el bloque <br>
 
 # Video

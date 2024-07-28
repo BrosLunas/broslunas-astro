@@ -7,7 +7,7 @@ tags:
 - Wiki
 - Novedades
 ---
-El dia de hoy me he decidido, por mejorar todo el sistema de wikis, ya que el sistema anterior era muy poco practico, ahora puedes visualizar todos las wikis desde [AQUI](/wikis), buscandolas mediante la herramienta de [BUSQUEDA](/search), o tambien mediante el enlace disponible en cada proyecto.
+El dia de hoy me he decidido, por mejorar todo el sistema de wikis, ya que el sistema anterior era muy poco practico, ahora puedes visualizar todos las wikis desde [AQUÍ](/wikis), buscándolas mediante la herramienta de [BÚSQUEDA](/search), o también mediante el enlace disponible en cada proyecto.
 
 ### [VISITAR PAGINA](/wikis)
 

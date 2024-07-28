@@ -4,7 +4,6 @@ summary: "He creado el pacman en html, css y js para un navegador"
 date: "05 02 2024"
 draft: false
 tags:
-
 - Juego 2D
 - Desktop
 demoUrl: https://games-broslunas.vercel.app/04-pacman/

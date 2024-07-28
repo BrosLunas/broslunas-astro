@@ -1,6 +1,6 @@
 ---
-title: "Juego Coloron (+ Demo)"
-summary: "He creado Coloron en html, css y js para un navegador"
+title: "Juego Colorón (+ Demo)"
+summary: "He creado Colorón en html, css y js para un navegador"
 date: "05 07 2024"
 draft: false
 tags:

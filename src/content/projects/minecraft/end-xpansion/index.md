@@ -1,6 +1,6 @@
 ---
 title: "End Xpansion | 1.18 |"
-summary: "He creado un nuevo mods que mejora la exploracion en el END"
+summary: "He creado un nuevo mods que mejora la exploración en el END"
 date: "05 06 2024"
 draft: false
 tags:

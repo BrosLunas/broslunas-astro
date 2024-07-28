@@ -7,7 +7,7 @@ tags:
 - Minecraft
 
 ---
-El dia de hoy me he decidido por crear un mod de minecraft para la version 1.18 donde se mejora la exploracion en el END.
+El dia de hoy me he decidido por crear un mod de minecraft para la version 1.18 donde se mejora la exploración en el END.
 
 Para mas info haz click [AQUí](/projects/minecraft/end-xpansion)
 

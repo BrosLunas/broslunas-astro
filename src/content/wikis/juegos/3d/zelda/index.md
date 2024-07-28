@@ -15,8 +15,8 @@ wikisDemoUrl: https://zelda-broslunas.vercel.app/
 # Información
 En el juego, existen dos modalidades:
 
-### Explora el Oceano
-En este modo de juego puedes explorar el oceano com bien indica el nombre, descubriendo artilugios y los fragmentos de la trifuerza.
+### Explora el Océano
+En este modo de juego puedes explorar el océano com bien indica el nombre, descubriendo artilugios y los fragmentos de la trifuerza.
 ### Consigue las Gemas
 Este modo de juego consiste en recoger todas las gemas que puedas, mientras los barriles se van acercando a ti, solo tienes 3 vidas y existen diferentes tipos de gemas cada una da una cantidad de puntos diferentes.
 
@@ -26,14 +26,14 @@ Este modo de juego consiste en recoger todas las gemas que puedas, mientras los 
 <b>W:</b> Mueve el personaje hacia arriba <br>
 <b>A:</b> Mueve el personaje hacia la izquierda <br>
 <b>S:</b> Mueve el personaje hacia abajo <br>
-<b>D:</b> Mueve el personaje haciala derecha <br>
+<b>D:</b> Mueve el personaje hacia la derecha <br>
 <b>ESPACIO:</b> Haz que el personaje salte <br>
 <b>F:</b> Alterna el <u>GANCHO</u> y <u>VELA</u> <br>
 <b>E:</b> Saca una foto <br> <br>
-Aparte de estas teclas tambien es necesario hacer click izq. del raton y arrastrar para mover la cam.
+Aparte de estas teclas también es necesario hacer click izq. del ratón y arrastrar para mover la cam.
 
-### <b style="font-size:x-large; "><u>MOVILES</u></b> <br>
-Los controles en los dispositivos moviles son mucho mas sencillos solo tienes que mover el stick para moverte, puslar botones en la pantalla o deslizar el dedo para girar la camara
+### <b style="font-size:x-large; "><u>MÓVILES</u></b> <br>
+Los controles en los dispositivos móviles son mucho mas sencillos solo tienes que mover el stick para moverte, pulsar botones en la pantalla o deslizar el dedo para girar la cámara
 
 
 # Video

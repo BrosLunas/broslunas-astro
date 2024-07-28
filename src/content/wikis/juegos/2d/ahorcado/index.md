@@ -1,6 +1,6 @@
 ---
-title: "Ahoracado"
-summary: "Wiki de Ahoracado"
+title: "Ahorcado"
+summary: "Wiki de Ahorcado"
 date: "07 29 2024"
 draft: false
 tags:

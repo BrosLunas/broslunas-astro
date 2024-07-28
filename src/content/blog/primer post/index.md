@@ -10,6 +10,6 @@ tags:
 
 ## Bienvenidos al primer post de Broslunas
 
-En este blog podras encontrar diferentes updates de todos mis proyectos y nuevas implementaciones en este fantastico sitio web creado con astro
+En este blog podrás encontrar diferentes updates de todos mis proyectos y nuevas implementaciones en este fantástico sitio web creado con astro.
 
 > Escrito por **Broslunas**

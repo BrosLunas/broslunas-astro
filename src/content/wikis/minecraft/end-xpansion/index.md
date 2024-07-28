@@ -18,8 +18,8 @@ Para poder usar el End Xpansion, es necesario tener Minecraft Java con la versio
 
 # Descargar
 Puedes descargarlo en la pagina de Courseforge, una de las mas utilizadas en todo el mundo.
-<li><b>Courseforge:</b> <a href="https://www.curseforge.com/minecraft/mc-mods/end-xpansion">Haz Click Aqui</a> (<i>Recomendado</i> )</li>
-<li><b>Local:</b> <a href="/downloads/minecraft/mods/end-xpansion/End+Xpansion+1.18+v1.0.6.jar">Haz Click Aqui</a> (<i>Este enlace no sera modificado con el tiempo</i> )</li> <br>
+<li><b>Courseforge:</b> <a href="https://www.curseforge.com/minecraft/mc-mods/end-xpansion">Haz Click Aquí</a> (<i>Recomendado</i> )</li>
+<li><b>Local:</b> <a href="/downloads/minecraft/mods/end-xpansion/End+Xpansion+1.18+v1.0.6.jar">Haz Click Aquí</a> (<i>Este enlace no sera modificado con el tiempo</i> )</li> <br>
 
 # Video
 Aquí le dejamos un corto video de como utilizar la web
