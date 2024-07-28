@@ -19,5 +19,6 @@ export default defineConfig({
     '/proyectos/[...slug]': '/projects/[...slug]',
     '/post/[...slug]': '/blog/[...slug]',
     '/publicacion/[...slug]': '/blog/[...slug]',
+    '/redes-sociales': '/rss',
   }
 })
