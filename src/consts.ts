@@ -93,7 +93,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Status", 
-    HREF: "https://hetrixtools.com/r/b0333544f0759908d2f94f81a19cfd62/", 
+    HREF: "https://uptime.broslunas.com", 
   },
 ]
 
