@@ -77,7 +77,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "AiQr", 
-    HREF: "https://aiqr.broslunas.com//", 
+    HREF: "https://aiqr.broslunas.com/", 
   },
   { 
     TEXT: "Cloud", 
@@ -85,7 +85,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Brosflix", 
-    HREF: "https://brosflix.broslunas.com//", 
+    HREF: "https://brosflix.broslunas.com/", 
   },
   { 
     TEXT: "YT", 
