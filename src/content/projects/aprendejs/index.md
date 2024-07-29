@@ -8,5 +8,7 @@ tags:
 repoUrl: https://github.com/BrosLunas/broslunas-aprendejs
 demoUrl: https://broslunas-aprendejs.vercel.app
 ---
-por escribir
+
+Aprende JS es una documentación muy fácil y sencilla de utilizar, en la cual me hizo a mi aprender JS con referencias de código, ejemplos y mucho más de forma totalmente gratuita.
+
 > Escrito por **Broslunas**
