@@ -9,7 +9,7 @@ tags:
 - Android
 projectUrl: /projects/juegos-2d/09-copycat
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/09-copycat/
-wikisDemoUrl: https://games-broslunas.vercel.app/09-copycat/
+wikisDemoUrl: https://games.broslunas.com//09-copycat/
 ---
 # Información
 En el juego, el jugador, controla dos gatos cada uno se mueve a la misma vez que el otro. El objetivo del juego es conseguir que los dos gatos consigan llegar a la meta a la vez.

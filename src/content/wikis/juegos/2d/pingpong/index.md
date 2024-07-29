@@ -8,7 +8,7 @@ tags:
 - Desktop
 projectUrl: /projects/juegos-2d/05-pingpong
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/05-pingpong/
-wikisDemoUrl: https://games-broslunas.vercel.app/05-pingpong/
+wikisDemoUrl: https://games.broslunas.com//05-pingpong/
 ---
 # Información
 En resumen, intenta ser una simulación de tenis de mesa aunque en definitiva termina siendo algo sumamente parecido al tejo aéreo. Cada vez que uno de los dos adversarios, que controlan uno de los rectángulos enfrentados, deja pasar la bola, su oponente gana un punto.

@@ -6,7 +6,7 @@ draft: false
 tags:
 - Juego 2D
 - Desktop
-demoUrl: https://games-broslunas.vercel.app/04-pacman/
+demoUrl: https://games.broslunas.com//04-pacman/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/04-pacman
 wikiUrl: /wikis/juegos/2d/pacman/
 ---

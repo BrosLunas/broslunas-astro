@@ -77,7 +77,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "AiQr", 
-    HREF: "https://broslunas-aiqr.vercel.app/", 
+    HREF: "https://aiqr.broslunas.com//", 
   },
   { 
     TEXT: "Cloud", 
@@ -85,7 +85,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Brosflix", 
-    HREF: "https://brosflix.vercel.app/", 
+    HREF: "https://brosflix.broslunas.com//", 
   },
   { 
     TEXT: "YT", 

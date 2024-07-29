@@ -7,7 +7,7 @@ tags:
 
 - Juego 2D
 - Desktop
-demoUrl: https://games-broslunas.vercel.app/07-orbita/
+demoUrl: https://games.broslunas.com//07-orbita/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/07-orbita/
 wikiUrl: /wikis/juegos/2d/orbita/
 ---

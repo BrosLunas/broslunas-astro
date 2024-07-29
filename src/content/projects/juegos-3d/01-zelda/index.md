@@ -8,7 +8,7 @@ tags:
 - Juego 3D
 - Desktop
 - Android
-demoUrl: https://zelda-broslunas.vercel.app/
+demoUrl: https://zelda.broslunas.com//
 repoUrl: https://github.com/BrosLunas/broslunas-zelda
 wikiUrl: /wikis/juegos/3d/zelda/
 ---

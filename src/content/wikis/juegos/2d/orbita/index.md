@@ -8,7 +8,7 @@ tags:
 - Desktop
 projectUrl: /projects/juegos-2d/07-orbita
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/07-orbita/
-wikisDemoUrl: https://games-broslunas.vercel.app/07-orbita/
+wikisDemoUrl: https://games.broslunas.com//07-orbita/
 ---
 # Información
 El concepto de Orbita, tiene un concepto demasiado simple, el juego consiste en que estas en una nave donde van apareciendo palabras desde la parte superior y tu tienes la misión de derribar todas las naves escribiéndolas con el teclado.

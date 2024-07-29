@@ -7,7 +7,7 @@ tags:
 - Brosflix
 - Renacimiento
 repoUrl: https://github.com/BrosLunas/brosflix
-demoUrl: https://brosflix.vercel.app
+demoUrl: https://brosflix.broslunas.com/
 wikiUrl: /wikis/brosflix
 ---
 ## Que era Brosflix
@@ -20,6 +20,6 @@ Brosflix se ha convertido en un sitio web donde puedes ver todas la información
 Puedes encontrar infinidad de cosas, entre las que se encuentran los trailer de cada serie, películas, también puedes encontrar las sinopsis de cada una junto con su portada.
 
 ## Como funciona Brosflix
-Brosflix funciona gracias a la integración de la API de [**TMDB**](https://themoviedb.org) (The Movie Database), de donde recuperaremos toda esta información y la mostraremos en nuestro [Sitio Web](https://brosflix.vercel.app).
+Brosflix funciona gracias a la integración de la API de [**TMDB**](https://themoviedb.org) (The Movie Database), de donde recuperaremos toda esta información y la mostraremos en nuestro [Sitio Web](https://brosflix.broslunas.com/).
 
 > Escrito por **Broslunas**

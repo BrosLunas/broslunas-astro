@@ -9,7 +9,7 @@ tags:
 - Android
 projectUrl: /projects/juegos-3d/01-zelda
 wikisRepoUrl: https://github.com/BrosLunas/broslunas-zelda/
-wikisDemoUrl: https://zelda-broslunas.vercel.app/
+wikisDemoUrl: https://zelda.broslunas.com//
 ---
 
 # Información

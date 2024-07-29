@@ -8,7 +8,7 @@ tags:
 - Desktop
 projectUrl: /projects/juegos-2d/10-buscaminas
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/10-buscaminas/
-wikisDemoUrl: https://games-broslunas.vercel.app/10-buscaminas/
+wikisDemoUrl: https://games.broslunas.com//10-buscaminas/
 ---
 # Información
 El concepto de buscaminas, El objetivo del juego es despejar un campo de minas sin detonar ninguna.

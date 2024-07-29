@@ -6,7 +6,7 @@ draft: false
 tags:
 - Aprende JS
 repoUrl: https://github.com/BrosLunas/broslunas-aprendejs
-demoUrl: https://broslunas-aprendejs.vercel.app
+demoUrl: https://aprendejs.broslunas.com/
 ---
 
 Aprende JS es una documentación muy fácil y sencilla de utilizar, en la cual me hizo a mi aprender JS con referencias de código, ejemplos y mucho más de forma totalmente gratuita.

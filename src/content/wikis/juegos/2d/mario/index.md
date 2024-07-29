@@ -8,7 +8,7 @@ tags:
 - Desktop
 projectUrl: /projects/juegos-2d/12-mario
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/12-mario/
-wikisDemoUrl: https://games-broslunas.vercel.app/12-mario/
+wikisDemoUrl: https://games.broslunas.com//12-mario/
 ---
 # Información
 El concepto de Mario, el objetivo del juego es derrotar a todos los enemigos en cada fase

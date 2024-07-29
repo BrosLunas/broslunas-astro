@@ -8,7 +8,7 @@ tags:
 - Juego 2D
 - Desktop
 - Android
-demoUrl: https://uno-broslunas.vercel.app/
+demoUrl: https://uno.broslunas.com//
 repoUrl: https://github.com/BrosLunas/uno-broslunas
 wikiUrl: /wikis/juegos/2d/uno/
 ---

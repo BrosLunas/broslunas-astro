@@ -8,7 +8,7 @@ tags:
 - Desktop
 projectUrl: /projects/juegos-2d/01-snake
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/01-snake/
-wikisDemoUrl: https://games-broslunas.vercel.app/01-snake/
+wikisDemoUrl: https://games.broslunas.com//01-snake/
 ---
 # Información
 En el juego, el jugador controla a una serpiente, que se desplaza a velocidad constante dentro de un plano delimitado, recogiendo alimentos, tratando de evitar golpearse contra paredes que rodean el área de juego o su propia cola. Cada vez que la serpiente se come un alimento esta crece.

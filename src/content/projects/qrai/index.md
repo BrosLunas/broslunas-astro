@@ -7,7 +7,7 @@ tags:
 - IA
 - Qr
 repoUrl: https://github.com/BrosLunas/broslunas-aiqr
-demoUrl: https://broslunas-aiqr.vercel.app
+demoUrl: https://aiqr.broslunas.com/
 wikiUrl: /wikis/aiqr
 ---
 ## Que es Broslunas IA Qr

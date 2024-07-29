@@ -7,7 +7,7 @@ tags:
 
 - Juego 2D
 - Desktop
-demoUrl: https://games-broslunas.vercel.app/09-copycat/
+demoUrl: https://games.broslunas.com//09-copycat/
 repoUrl: https://github.com/BrosLunas/Web-Page/tree/main/09-copycat/
 wikiUrl: /wikis/juegos/2d/copycat/
 ---

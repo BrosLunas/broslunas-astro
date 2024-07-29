@@ -11,7 +11,7 @@ Aprende JS es una documentación muy fácil y sencilla de utilizar, en la cual m
 
 ## Enlaces importantes
 
-**Sitio Web**: [Enlace](https://broslunas-aprendejs.vercel.app/)
+**Sitio Web**: [Enlace](https://aprendejs.broslunas.com//)
 
 **Proyecto**: [Proyecto](/projects/aprendejs)
 

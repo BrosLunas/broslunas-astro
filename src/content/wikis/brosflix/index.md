@@ -8,7 +8,7 @@ tags:
 - Renacimiento
 projectUrl: /projects/brosflix/renacimiento
 wikisRepoUrl: https://github.com/BrosLunas/brosflix
-wikisDemoUrl: https://brosflix.vercel.app/
+wikisDemoUrl: https://brosflix.broslunas.com//
 ---
 # Información
 Brosflix es un proyecto creado por Broslunas con la finalidad de estar al tanto de toda la información de nuevas series, películas, etc.

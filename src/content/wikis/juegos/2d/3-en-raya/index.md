@@ -9,7 +9,7 @@ tags:
 - Android
 projectUrl: /projects/juegos-2d/16-3-en-raya
 wikisRepoUrl: https://github.com/BrosLunas/Web-Page/tree/main/16-3-en-raya/
-wikisDemoUrl: https://games-broslunas.vercel.app/16-3-en-raya/
+wikisDemoUrl: https://games.broslunas.com//16-3-en-raya/
 ---
 # Información
 El concepto de 3 En Raya, consiste en dos personas en que gana el primero en poner tres marcas en línea, usualmente círculos y cruces, dentro de una cuadrícula de tres casillas de ancho por tres de alto
