@@ -14,7 +14,7 @@ Broslunas Cloud ha tenido una nueva actualización el dia de hoy en la que se ha
 Hemos implementado el tener que registrarte en la pagina web para poder proteger de mejor manera todos los archivo y que no cualquier persona pueda acceder a estos.
 
 ## Contenido Protegido
-En Broslunas Cloud abrimos la posibilidad de tu también tener tus propios archivos visibles desde nuestra página web, para esto es necesario que rellenes el [formulario de contacto](/contacto) o mediante [correo electrónico](mailto:pablo.luna.perez.008@gmail.com). Después de esto te contactaremos por tu correo facilitado para indicarte los siguientes pasos.
+En Broslunas Cloud abrimos la posibilidad de tu también tener tus propios archivos visibles desde nuestra página web, para esto es necesario que rellenes el [formulario de contacto](/contacto) o mediante [correo electrónico](mailto:pablo@broslunas.com). Después de esto te contactaremos por tu correo facilitado para indicarte los siguientes pasos.
 
 ### - Como aparecería?
 Dentro del sitio web [broslunas-cloud.rf.gd](https://broslunas-cloud.rf.gd) se te creara una sub página con tu nombre de usuario o el nombre que tu decidas, aquí te dejo un ejemplo [/shortlink](https://broslunas-cloud.rf.gd/shortlink)
