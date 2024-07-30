@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
-import { SITE } from "@consts"
+import { JUEGOS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 
@@ -12,7 +12,7 @@ const projects = (await getCollection("projects"))
   .slice(0,7)
 ---
 
-<PageLayout title="Juegos" description={SITE.DESCRIPTION}>
+<PageLayout title={JUEGOS.TITLE} description={JUEGOS.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>

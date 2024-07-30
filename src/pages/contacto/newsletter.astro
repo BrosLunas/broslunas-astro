@@ -1,12 +1,12 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro"
-import { SITE } from "@consts"
+import { NEWSLETTER } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 
 ---
 
-<PageLayout title="Newsletter" description={SITE.DESCRIPTION}>
+<PageLayout title={NEWSLETTER.TITLE} description={NEWSLETTER.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>

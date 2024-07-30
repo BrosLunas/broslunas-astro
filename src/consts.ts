@@ -3,62 +3,86 @@ import type { Site, Page, Links } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Broslunas",
-  DESCRIPTION: "Bienvenidos a Broslunas Center, Un portfolio web para desarrolladores.",
+  DESCRIPTION: "Bienvenidos a Broslunas Center. Un portfolio web para desarrolladores. Aquí podrás encontrar infinidad de proyectos y mucho mas para empezar con tu desarrollo web.",
   AUTHOR: "Broslunas",
 }
 
 // Work Page
 export const WORK: Page = {
   TITLE: "Trabajos",
-  DESCRIPTION: "Sitios donde he trabajado.",
+  DESCRIPTION: "Estás buscando mi repertorio de trabajos a lo largo de mi carrera. Aquí los encontrarás",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Publicaciones sobre el desarrollo.",
+  DESCRIPTION: "Blog personal donde podrás encontrar todas las publicaciones relacionadas con broslunas.com.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
   TITLE: "Proyectos",
-  DESCRIPTION: "Proyectos donde he estado implicado.",
+  DESCRIPTION: "Proyectos que he realizado y podrás encontrar junto al repositorio de Github y una Demo.",
 }
 
 // Contacto Page 
 export const CONTACTO: Page = {
   TITLE: "Contacto",
-  DESCRIPTION: "Contacta conmigo.",
+  DESCRIPTION: "¿Quieres contactarme y no sabes cómo? Haz click aquí y rellena el siguiente formulario.",
+}
+
+// Newsletter Page 
+export const NEWSLETTER: Page = {
+  TITLE: "Newsletter",
+  DESCRIPTION: "¿Quieres estar al tanto de todas las novedades del sitio web por correo electrónico? Suscríbete a nuestra Newsletter.",
+}
+
+// Contacto Page 
+export const ENVIADO: Page = {
+  TITLE: "Formulario Enviado",
+  DESCRIPTION: "Muchas gracias por enviar el formulario.",
+}
+
+// Broslunas Page 
+export const BROSLUNAS: Page = {
+  TITLE: "Sobre Mi",
+  DESCRIPTION: "Obtén un poco mas de información sobre Broslunas.",
 }
 
 // Juegos Page 
 export const JUEGOS: Page = {
   TITLE: "Juegos",
-  DESCRIPTION: "Mira todos los últimos juegos lanzados.",
+  DESCRIPTION: "¿Estás buscando juegos clásicos o mas únicos? Estás en el lugar correcto.",
+}
+
+// InfoJuegos Page 
+export const INFOJUEGOS: Page = {
+  TITLE: "Info Juegos",
+  DESCRIPTION: "¿Estás buscando información sobre juegos? Estás en el lugar correcto.",
 }
 
 // Wikis Page 
 export const WIKIS: Page = {
   TITLE: "Wikis",
-  DESCRIPTION: "Mira la wiki de cada proyecto.",
+  DESCRIPTION: "¿Estás perdido y no sabes como usar los proyectos o los juegos? Es tan fácil como verlos en la wiki.",
 }
 
 // YT Page 
 export const YOUTUBE: Page = {
   TITLE: "YouTube",
-  DESCRIPTION: "Mira mis últimos videos de YouTube.",
-}
-
-//Status Page
-export const STATUS: Page = {
-  TITLE: "Status",
-  DESCRIPTION: "Mira el estado de la pagina.",
+  DESCRIPTION: "Mira todos los videos recién subidos a mi canal de YouTube.",
 }
 
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Buscar",
   DESCRIPTION: "Buscar cualquier publicación o proyecto.",
+}
+
+// Error 404 Page
+export const ERROR404: Page = {
+  TITLE: "Error 404",
+  DESCRIPTION: "La página que estas intentando buscar, no esta disponible en este momento.",
 }
 
 // Links
