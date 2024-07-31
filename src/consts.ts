@@ -108,15 +108,11 @@ export const LINKS: Links = [
     HREF: "https://broslunas-cloud.rf.gd/", 
   },
   { 
-    TEXT: "Brosflix", 
-    HREF: "https://brosflix.broslunas.com/", 
+    TEXT: "AprendeJS", 
+    HREF: "https://aprendejs.broslunas.com/", 
   },
   { 
-    TEXT: "YT", 
-    HREF: "/youtube", 
-  },
-  { 
-    TEXT: "Status", 
+    TEXT: "Uptime", 
     HREF: "https://uptime.broslunas.com", 
   },
 ]

@@ -2,16 +2,20 @@
 import Container from "@components/Container.astro"
 import { getCollection } from "astro:content"
 import FooterProjects from "@components/FooterProjects"
+import { LINKS } from "@consts"
+const { pathname } = Astro.url
+const subpath = pathname.match(/[^/]+/g)
+import { cn } from "@lib/utils"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,5)
+  .slice(0,6)
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,5)
+  .slice(0,6)
 ---
 
 
@@ -57,14 +61,14 @@ const projects = (await getCollection("projects"))
           </ul>
         </div>
         <div class="grid gap-1 text-center">
-          <h1 class="font-semibold">Proyectos Importantes</h1>
-          <a class="mt-3 text-black dark:text-white" href="https://broslunas-cloud.rf.gd/">Cloud</a>
-          <a class="mt-3 text-black dark:text-white" href="https://aiqr.broslunas.com/">AI Qr</a>
-          <a class="mt-3 text-black dark:text-white" href="https://brosflix.broslunas.com/">Brosflix</a>
-          <a class="mt-3 text-black dark:text-white" href="/blog/broslunas">App</a>
-          <a class="mt-3 text-black dark:text-white" href="https://mario.broslunas.com//">Mario</a>
-          <a class="mt-3 text-black dark:text-white" href="https://uno.broslunas.com//">Uno</a>
-
+          <h1 class="font-semibold">Navegación Principal</h1>
+          {
+            LINKS.map((LINK) => (
+              <a href={LINK.HREF} class={cn("mt-3 text-black dark:text-white", pathname === LINK.HREF || "/" + subpath?.[0] === LINK.HREF )}>
+                {LINK.TEXT}
+              </a>
+            ))
+          }
         </div>
         <div class="grid gap-1 text-center">
           <h1 class="font-semibold">Ultimos Post</h1>
