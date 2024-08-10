@@ -96,16 +96,16 @@ export const LINKS: Links = [
     HREF: "/blog", 
   },
   { 
-    TEXT: "Wikis", 
-    HREF: "/wikis", 
+    TEXT: "Wikis",
+    HREF: "/wikis",
   },
   { 
     TEXT: "AiQr", 
     HREF: "https://aiqr.broslunas.com/", 
   },
   { 
-    TEXT: "Cloud", 
-    HREF: "https://broslunas-cloud.rf.gd/", 
+    TEXT: "TierList", 
+    HREF: "https://tier.broslunas.com/", 
   },
   { 
     TEXT: "AprendeJS", 

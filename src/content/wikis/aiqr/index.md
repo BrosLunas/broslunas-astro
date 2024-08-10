@@ -8,7 +8,7 @@ tags:
 - Qr
 projectUrl: /projects/qrai
 wikisRepoUrl: https://github.com/BrosLunas/broslunas-aiqr
-wikisDemoUrl: https://aiqr.broslunas.com//
+wikisDemoUrl: https://aiqr.broslunas.com/
 ---
 # Información
 Broslunas AI Qr es un sitio web en el cual puedes crear enlaces Qr de forma rápida y sencilla en el cual puedes añadir una imagen de fondo que es generada por IA en el mismo instante
