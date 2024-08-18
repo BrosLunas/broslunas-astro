@@ -4,7 +4,7 @@ import { formatDate, readingTime } from "@lib/utils"
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 type Props = {
-  entry: CollectionEntry<"projects"> | CollectionEntry<"blog"> | CollectionEntry<"wikis">
+  entry: CollectionEntry<"projects"> | CollectionEntry<"blog"> | CollectionEntry<"wikis"> | CollectionEntry<"modpacks">
 }
 
 const { entry } = Astro.props
@@ -22,6 +22,11 @@ const wikisLinkUrl = collection === "wikis" ? data.wikisLinkUrl : null
 const wikisRepoUrl = collection === "wikis" ? data.wikisRepoUrl : null
 const wikisDownloadUrl = collection === "wikis" ? data.wikisDownloadUrl : null
 const projectUrl = collection === "wikis" ? data.projectUrl : null
+
+const modpacksDemoUrl = collection === "modpacks" ? data.modpacksDemoUrl : null
+const modpacksLinkUrl = collection === "modpacks" ? data.modpacksLinkUrl : null
+const modpacksRepoUrl = collection === "modpacks" ? data.modpacksRepoUrl : null
+const modpacksDownloadUrl = collection === "modpacks" ? data.modpacksDownloadUrl : null
 ---
 <SpeedInsights/>
 <div>
@@ -54,10 +59,17 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl || projectUrl || wikisDemoUrl || wikisLinkUrl || wikisRepoUrl || wikisDownloadUrl) && 
+  {(modpacksDownloadUrl || modpacksRepoUrl || modpacksDemoUrl || modpacksLinkUrl || demoUrl || linkUrl || downloadUrl || repoUrl || wikiUrl || projectUrl || wikisDemoUrl || wikisLinkUrl || wikisRepoUrl || wikisDownloadUrl) && 
   <div class="mt-4 flex flex-wrap gap-2">
     {wikisDemoUrl && 
       <a href={wikisDemoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Probar Demo
+        </span>
+      </a>
+    }
+    {modpacksDemoUrl && 
+      <a href={modpacksDemoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Probar Demo
         </span>
@@ -77,6 +89,13 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
         </span>
       </a>
     }
+    {modpacksLinkUrl && 
+      <a href={modpacksLinkUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver enlace
+        </span>
+      </a>
+    }
     {linkUrl && 
       <a href={linkUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
@@ -86,6 +105,13 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
     }
     {repoUrl && 
       <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Ver Repositorio
+        </span>
+      </a>
+    }
+    {modpacksRepoUrl && 
+      <a href={modpacksRepoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Ver Repositorio
         </span>
@@ -107,6 +133,13 @@ const projectUrl = collection === "wikis" ? data.projectUrl : null
     }
     {downloadUrl && 
       <a href={downloadUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          Descargar
+        </span>
+      </a>
+    }
+    {modpacksDownloadUrl && 
+      <a href={modpacksDownloadUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
           Descargar
         </span>

@@ -43,6 +43,12 @@ export const ENVIADO: Page = {
   DESCRIPTION: "Muchas gracias por enviar el formulario.",
 }
 
+// Contacto Page 
+export const MODPACK: Page = {
+  TITLE: "Modpack",
+  DESCRIPTION: "Muchas gracias por enviar el formulario.",
+}
+
 // Broslunas Page 
 export const BROSLUNAS: Page = {
   TITLE: "Sobre Mi",

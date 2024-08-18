@@ -1,0 +1,35 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+import WikisArticleTopLayout from "@layouts/WikisArticleTopLayout.astro"
+import ArticleBottomLayout from "@layouts/ArticleBottomLayout.astro"
+
+// Create the static projects pages
+export async function getStaticPaths() {
+	const wikis = await getCollection("wikis")
+	return wikis.map((wiki) => ({
+		params: { slug: wiki.slug },
+		props: wiki,
+	}))
+}
+
+// Get the requested project
+type Props = CollectionEntry<"wikis">
+const wiki = Astro.props
+const { title, summary } = wiki.data
+---
+
+<PageLayout title={title} description={summary}>
+  <TopLayout>
+    <div class="animate">
+      <WikisArticleTopLayout entry={wiki} />
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <ArticleBottomLayout entry={wiki} />
+    </div>
+  </BottomLayout>
+</PageLayout>
