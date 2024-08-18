@@ -46,7 +46,7 @@ export const ENVIADO: Page = {
 // Contacto Page 
 export const MODPACK: Page = {
   TITLE: "Modpack",
-  DESCRIPTION: "Muchas gracias por enviar el formulario.",
+  DESCRIPTION: "Modpack Oficial de Broslunas para la version 1.20.1.",
 }
 
 // Broslunas Page 

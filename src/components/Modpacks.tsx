@@ -1,6 +1,6 @@
 import type { CollectionEntry } from "astro:content"
 import { createEffect, createSignal, For } from "solid-js"
-import ArrowCard from "@components/ArrowCard"
+import ModpackArrowCard from "@components/ModpackArrowCard"
 import { cn } from "@lib/utils"
 
 type Props = {
@@ -61,7 +61,7 @@ export default function Modpacks({ data, tags }: Props) {
           <ul class="flex flex-col gap-3">
             {modpacks().map((modpack) => (
               <li>
-                <ArrowCard entry={modpack} />
+                <ModpackArrowCard entry={modpack} />
               </li>
             ))}
           </ul>
