@@ -106,16 +106,16 @@ export const LINKS: Links = [
     HREF: "/wikis",
   },
   { 
-    TEXT: "AiQr", 
-    HREF: "https://aiqr.broslunas.com/", 
-  },
-  { 
-    TEXT: "TierList", 
-    HREF: "https://tier.broslunas.com/", 
+    TEXT: "Modpacks", 
+    HREF: "/modpacks", 
   },
   { 
     TEXT: "AprendeJS", 
     HREF: "https://aprendejs.broslunas.com/", 
+  },
+  { 
+    TEXT: "AiQr", 
+    HREF: "https://aiqr.broslunas.com/", 
   },
   { 
     TEXT: "Uptime", 

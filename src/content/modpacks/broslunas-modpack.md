@@ -1,9 +1,10 @@
 ---
 title: "Broslunas Modpack 1.0 (FIJADO)"
 summary: "Información principal y enlaces de descarga del Modpack"
-date: "08 18 2024"
+date: "08 18 100000"
 draft: false
 tags:
+- "Broslunas Modpack"
 - "Modpack"
 - "Descargar"
 modpacksDownloadUrl: /downloads/minecraft/modpack/Broslunas%20Modpack-1.0.zip
