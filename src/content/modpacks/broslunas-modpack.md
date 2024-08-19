@@ -6,7 +6,7 @@ draft: false
 tags:
 - "Broslunas Modpack"
 - "Modpack"
-- "Descargar"
+- "1.20.1"
 modpacksDownloadUrl: /downloads/minecraft/modpack/Broslunas%20Modpack-1.0.zip
 ---
 ## Que es Broslunas Modpack

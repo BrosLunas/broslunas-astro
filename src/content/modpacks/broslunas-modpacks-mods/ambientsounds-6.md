@@ -5,8 +5,8 @@ date: "08 20 2024"
 draft: false
 tags:
 - "Broslunas Modpack"
+- "1.20.1"
 - "Mod"
-- "Descargar"
 modpacksDownloadUrl: https://www.curseforge.com/minecraft/mc-mods/ambientsounds/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
 modpacksLinkUrl: https://www.curseforge.com/minecraft/mc-mods/ambientsounds
 ---

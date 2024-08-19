@@ -16,6 +16,8 @@ export default defineConfig({
     '/social-network': '/redes-sociales',
     '/wiki': '/wikis',
     '/wiki/[...slug]': '/wikis/[...slug]',
+    '/modpacks': '/modpack',
+    '/modpacks/[...slug]': '/modpack/[...slug]',
     '/proyectos/[...slug]': '/projects/[...slug]',
     '/post/[...slug]': '/blog/[...slug]',
     '/publicacion/[...slug]': '/blog/[...slug]',

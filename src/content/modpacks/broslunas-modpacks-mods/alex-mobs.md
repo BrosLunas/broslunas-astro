@@ -5,8 +5,8 @@ date: "08 18 2024"
 draft: false
 tags:
 - "Broslunas Modpack"
+- "1.20.1"
 - "Mod"
-- "Descargar"
 modpacksDownloadUrl: https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=1
 modpacksLinkUrl: https://www.curseforge.com/minecraft/mc-mods/alexs-mobs
 ---
