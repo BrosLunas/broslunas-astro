@@ -95,11 +95,29 @@ export const ERROR404: Page = {
 export const LINKS: Links = [
   { 
     TEXT: "Proyectos", 
-    HREF: "/projects", 
+    HREF: "/projects",
+    SUBLINKS: [
+      { TEXT: "End Xpansion", HREF: "/projects/minecraft/end-xpansion" },
+      { TEXT: "Calculadora", HREF: "/projects/calc" },
+      { TEXT: "Tier List", HREF: "/projects/tierlist" },
+      { TEXT: "Shortlink", HREF: "/projects/shortlink" },
+      { TEXT: "Cloud", HREF: "/projects/broslunas-cloud" },
+      { TEXT: "Brosflix", HREF: "/projects/brosflix/renacimiento" },
+      { TEXT: "Uno", HREF: "/projects/juegos-2d/13-uno" },
+      { TEXT: "Zelda", HREF: "/projects/juegos-3d/01-zelda" },
+      { TEXT: "Tower Blocks", HREF: "/projects/juegos-2d/11-towerblocks" },
+    ]
   },
   { 
     TEXT: "Blog", 
     HREF: "/blog", 
+    SUBLINKS: [
+      { TEXT: "Aprende JS", HREF: "/blog/aprendejs" },
+      { TEXT: "Wikis 2.0", HREF: "/blog/wikis/v-2" },
+      { TEXT: "Cloud Updates", HREF: "/blog/cloud/updates" },
+      { TEXT: "Android & Desktop", HREF: "/blog/broslunas" },
+      { TEXT: "Primer Post", HREF: "/blog/primer-post" },
+    ]
   },
   { 
     TEXT: "Wikis",
@@ -108,6 +126,9 @@ export const LINKS: Links = [
   { 
     TEXT: "Modpacks", 
     HREF: "/modpacks", 
+    SUBLINKS: [
+      { TEXT: "Broslunas Modpack", HREF: "/modpack/broslunas-modpack" },
+    ]
   },
   { 
     TEXT: "AprendeJS", 
@@ -122,4 +143,3 @@ export const LINKS: Links = [
     HREF: "https://uptime.broslunas.com", 
   },
 ]
-

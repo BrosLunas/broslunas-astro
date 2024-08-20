@@ -7,10 +7,13 @@ export interface Site extends Page {
   AUTHOR: string
 }
 
-export type Links = {
+export type Link = {
   TEXT: string
   HREF: string
-}[]
+  SUBLINKS?: Link[] // Subenlaces opcionales
+}
+
+export type Links = Link[]
 
 export type Socials = {
   NAME: string
