@@ -97,13 +97,13 @@ export const LINKS: Links = [
     TEXT: "Proyectos", 
     HREF: "/projects",
     SUBLINKS: [
+      { TEXT: "Code", HREF: "/projects/code" },
       { TEXT: "End Xpansion", HREF: "/projects/minecraft/end-xpansion" },
       { TEXT: "Calculadora", HREF: "/projects/calc" },
       { TEXT: "Tier List", HREF: "/projects/tierlist" },
       { TEXT: "Shortlink", HREF: "/projects/shortlink" },
       { TEXT: "Cloud", HREF: "/projects/broslunas-cloud" },
       { TEXT: "Brosflix", HREF: "/projects/brosflix/renacimiento" },
-      { TEXT: "Uno", HREF: "/projects/juegos-2d/13-uno" },
       { TEXT: "Zelda", HREF: "/projects/juegos-3d/01-zelda" },
       { TEXT: "Tower Blocks", HREF: "/projects/juegos-2d/11-towerblocks" },
     ]
