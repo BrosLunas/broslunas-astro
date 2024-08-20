@@ -125,7 +125,7 @@ export const LINKS: Links = [
   },
   { 
     TEXT: "Modpacks", 
-    HREF: "/modpacks", 
+    HREF: "/modpack", 
     SUBLINKS: [
       { TEXT: "Broslunas Modpack", HREF: "/modpack/broslunas-modpack" },
     ]
