@@ -3,6 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro"
 import { CONTACTO } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import Container from "@components/Container.astro"
 
 ---
 
@@ -62,6 +63,7 @@ import MeteorShower from "@components/MeteorShower.astro"
   <div class="relative bg-white dark:bg-black">
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16"></div>
 
+    <Container size="lg">
     <div class="p-6">
       <form class="space-y-4" action="https://formsubmit.co/43f42aa90e05ecaff206827c828c3965" method="POST">
         <div class="grid grid-cols-2 gap-4">
@@ -76,6 +78,7 @@ import MeteorShower from "@components/MeteorShower.astro"
               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               id="firstName"
               name="nombre"
+              required
               placeholder="Introduce tu nombre"
             />
           </div>
@@ -107,6 +110,7 @@ import MeteorShower from "@components/MeteorShower.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="email"
             name="email"
+            required
             placeholder="Introduce tu correo electronico"
             type="email"
           />
@@ -139,6 +143,7 @@ import MeteorShower from "@components/MeteorShower.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="subject"
             name="asunto"
+            required
             placeholder="Escribe el motivo"
             type="text"
           />
@@ -151,12 +156,13 @@ import MeteorShower from "@components/MeteorShower.astro"
           >
             Mensaje
           </label>
-          <input 
+          <textarea 
+            style="resize: none; height: 150px"
             name="mensaje" 
+            required
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="message"
-            placeholder="Introduce un poco de texto">
-          </input>
+            id="message">
+          </textarea>
 
           <input 
           type="submit" 
@@ -171,6 +177,7 @@ import MeteorShower from "@components/MeteorShower.astro"
         </div>
       </form>
     </div>
+  </Container>
 
   </div>
 </div>
