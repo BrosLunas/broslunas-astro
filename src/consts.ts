@@ -97,9 +97,9 @@ export const LINKS: Links = [
     TEXT: "Proyectos", 
     HREF: "/projects",
     SUBLINKS: [
+      { TEXT: "FileDrop", HREF: "/projects/filedrop" },
       { TEXT: "Code", HREF: "/projects/code" },
       { TEXT: "End Xpansion", HREF: "/projects/minecraft/end-xpansion" },
-      { TEXT: "Calculadora", HREF: "/projects/calc" },
       { TEXT: "Tier List", HREF: "/projects/tierlist" },
       { TEXT: "Shortlink", HREF: "/projects/shortlink" },
       { TEXT: "Cloud", HREF: "/projects/broslunas-cloud" },
