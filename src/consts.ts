@@ -131,6 +131,14 @@ export const LINKS: Links = [
     ]
   },
   { 
+    TEXT: "Code", 
+    HREF: "https://code.broslunas.com/", 
+  },
+  { 
+    TEXT: "FileDrop", 
+    HREF: "https://filedrop.broslunas.com/", 
+  },
+  { 
     TEXT: "AprendeJS", 
     HREF: "https://aprendejs.broslunas.com/", 
   },
