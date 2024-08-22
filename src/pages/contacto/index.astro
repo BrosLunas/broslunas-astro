@@ -65,7 +65,7 @@ import Container from "@components/Container.astro"
 
     <Container size="lg">
     <div class="p-6">
-      <form class="space-y-4" action="https://formsubmit.co/43f42aa90e05ecaff206827c828c3965" method="POST">
+      <form id="contacto"class="space-y-4" action="https://formsubmit.co/43f42aa90e05ecaff206827c828c3965" method="POST">
         <div class="grid grid-cols-2 gap-4">
           <div class="space-y-2">
             <label
@@ -143,7 +143,7 @@ import Container from "@components/Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="subject"
             name="asunto"
-            required
+            required 
             placeholder="Escribe el motivo"
             type="text"
           />
@@ -163,10 +163,9 @@ import Container from "@components/Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="message"/>
 
-          <input 
+          <input  
           type="submit" 
-          name="submit" 
-          onclick="this.disabled=true"
+          name="submit"
           class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:bg-black/5 hover:dark:bg-white/15" 
           value="Enviar">
 
