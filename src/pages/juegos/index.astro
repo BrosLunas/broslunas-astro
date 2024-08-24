@@ -5,11 +5,12 @@ import ArrowCard from "@components/ArrowCard"
 import { JUEGOS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import Container from "@components/Container.astro"
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,7)
+  .slice(0,10)
 ---
 
 <PageLayout title={JUEGOS.TITLE} description={JUEGOS.DESCRIPTION}>
@@ -73,6 +74,8 @@ const projects = (await getCollection("projects"))
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
 
       <!-- Project Preview Section -->
+      
+  <Container size="lg">
       <section class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
@@ -94,6 +97,7 @@ const projects = (await getCollection("projects"))
           </ul>
         </div>
       </section>
+    </Container>
     </div>
   </div>
 </PageLayout>
