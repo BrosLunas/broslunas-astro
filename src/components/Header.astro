@@ -13,7 +13,7 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
     <div class="relative h-full w-full">
       <div class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold">
         <a href="/" class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
-          <img alt="Logo" src="/assets/svg/favicon.svg">
+          <img src="/assets/svg/favicon.svg">
           <div class="text-align: justify">
             {SITE.TITLE}
           </div>
@@ -61,7 +61,7 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
       </button>
       
       <a aria-label={`Ver en Github`} class={cn("hidden md:flex", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")} target="_blank" href="https://github.com/BrosLunas/broslunas-astro">
-        <img alt="Logo Github" src="/assets/svg/github-white.svg"/>
+        <img src="/assets/svg/github-white.svg"/>
       </a>
 
       <button id="header-drawer-button" aria-label={`Cambiar a tema oscuro`} class={cn("flex md:hidden", "size-9 rounded-full p-2 items-center justify-center", "bg-transparent hover:bg-black/5 dark:hover:bg-white/20", "stroke-current hover:stroke-black hover:dark:stroke-white", "border border-black/10 dark:border-white/25", "transition-colors duration-300 ease-in-out")}>
@@ -74,62 +74,93 @@ import  SpeedInsights  from "@vercel/speed-insights/astro"
       </button>
     </div>
   </div>
-  </>
+  </Container>
 </header>
 
 <style>
-/* Menú desplegable */
-#header nav .group {
-  position: relative;
-}
+  
+  #header-drawer-button > #drawer-open {
+    @apply block;
+  }
 
-#header nav .group div {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  background-color: rgba(30, 30, 30, 0.95);
-  border-radius: 8px;
-  padding: 10px 0;
-  margin-top: 8px;
-  min-width: 160px;
-  z-index: 1000;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
+  #header-drawer-button > #drawer-close {
+    @apply hidden;
+  }
 
-#header nav .group:hover div,
-#header nav .group div:hover {
-  opacity: 1;
-  visibility: visible;
-}
+  #header-drawer-button.open > #drawer-open {
+    @apply hidden;
+  }
 
-#header nav .group div a {
-  display: block;
-  padding: 8px 20px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+  #header-drawer-button.open > #drawer-close {
+    @apply block;
+  }
+  /* Menú desplegable */
+  #header nav .group {
+    position: relative;
+  }
+  
+  #header nav .group div {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 8px;
+    padding: 10px 0;
+    margin-top: 8px;
+    min-width: 160px;
+    z-index: 1000;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  #header nav .group:hover div,
+  #header nav .group div:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #header nav .group div a {
+    display: block;
+    padding: 8px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #header nav .group div a:hover {
+    background-color: #1a1a1a;
+  }
+  
+  </style>
+  
+  <script is:inline>
+    document.querySelectorAll('#header nav .group').forEach(group => {
+      group.addEventListener('mouseenter', () => {
+        const menu = group.querySelector('div');
+        menu.style.opacity = '1';
+        menu.style.visibility = 'visible';
+      });
+    
+      group.addEventListener('mouseleave', () => {
+        const menu = group.querySelector('div');
+        menu.style.opacity = '0';
+        menu.style.visibility = 'hidden';
+      });
+    });
+    
+    
+  function toggleDrawer() {
+    const drawer = document.getElementById("drawer")
+    const drawerButton = document.getElementById("header-drawer-button")
+    drawer?.classList.toggle("open")
+    drawerButton?.classList.toggle("open")
+  }
 
-#header nav .group div a:hover {
-  background-color: #1a1a1a;
-}
+  function initializeDrawerButton() {
+    const drawerButton = document.getElementById("header-drawer-button")
+    drawerButton?.addEventListener("click", toggleDrawer)
+  }
 
-</style>
-
-<script is:inline>
-document.querySelectorAll('#header nav .group').forEach(group => {
-  group.addEventListener('mouseenter', () => {
-    const menu = group.querySelector('div');
-    menu.style.opacity = '1';
-    menu.style.visibility = 'visible';
-  });
-
-  group.addEventListener('mouseleave', () => {
-    const menu = group.querySelector('div');
-    menu.style.opacity = '0';
-    menu.style.visibility = 'hidden';
-  });
-});
-
-</script>
+  document.addEventListener("astro:after-swap", initializeDrawerButton)
+  initializeDrawerButton()
+    </script>
