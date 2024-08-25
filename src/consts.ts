@@ -139,8 +139,12 @@ export const LINKS: Links = [
     HREF: "https://filedrop.broslunas.com/", 
   },
   { 
-    TEXT: "AprendeJS", 
-    HREF: "https://aprendejs.broslunas.com/", 
+    TEXT: "Cursos", 
+    HREF: "https://cursos.broslunas.com/", 
+    SUBLINKS: [
+      { TEXT: "AprendeJS", HREF: "https://aprendejs.broslunas.com" },
+      { TEXT: "Node JS (Próximamente)", HREF: "#NO" },
+    ]
   },
   { 
     TEXT: "AiQr", 
