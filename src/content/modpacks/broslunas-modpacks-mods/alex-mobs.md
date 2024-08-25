@@ -1,7 +1,7 @@
 ---
 title: "Alex's Mobs"
 summary: "Información principal y enlaces de descarga de Alex's Mobs"
-date: "08 18 2024"
+date: "09 05 2024"
 draft: false
 tags:
 - "Broslunas Modpack"

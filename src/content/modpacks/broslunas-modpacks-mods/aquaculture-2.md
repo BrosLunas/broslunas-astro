@@ -1,7 +1,7 @@
 ---
 title: "Aquaculture 2"
 summary: "Información principal y enlaces de descarga de Aquaculture 2"
-date: "08 23 2024"
+date: "09 05 2024"
 draft: false
 tags:
 - "Broslunas Modpack"

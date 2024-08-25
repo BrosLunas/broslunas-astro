@@ -1,7 +1,7 @@
 ---
 title: "Amendements"
 summary: "Información principal y enlaces de descarga de Amendements"
-date: "08 21 2024"
+date: "09 05 2024"
 draft: false
 tags:
 - "Broslunas Modpack"
