@@ -10,14 +10,18 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 const { title, description } = Astro.props
 ---
 <!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-GS5NPQR6YQ"></script>
-<script type="text/partytown">
+<script is:inline type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-GS5NPQR6YQ"></script>
+<script is:inline type="text/partytown">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-GS5NPQR6YQ');
 </script>
+
+<!-- Google Adsense -->
+<script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3547861784285015"
+     crossorigin="anonymous"></script>
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
