@@ -1,8 +1,8 @@
 ---
 title: "Artifacts"
 summary: "Información principal y enlaces de descarga de Artifacts"
-date: "08 24 2024"
-draft: true
+date: "09 05 2024"
+draft: false
 tags:
 - "Broslunas Modpack"
 - "1.20.1"
@@ -11,4 +11,12 @@ modpacksDownloadUrl: https://www.curseforge.com/minecraft/mc-mods/artifacts/file
 modpacksLinkUrl: https://www.curseforge.com/minecraft/mc-mods/artifacts
 ---
 
-Mod No Disponible
+**Descripción del Mod:**  
+Artifacts es un mod para Minecraft que añade una variedad de poderosos artefactos que se encuentran en mazmorras y cofres ocultos. Cada artefacto proporciona efectos especiales y únicos que mejoran la jugabilidad. El mod se centra en la exploración y la caza de tesoros, proporcionando nuevas mecánicas y contenido para los jugadores.
+
+**Características Principales:**
+- Introduce artefactos con habilidades únicas.
+- Mejora la exploración con nuevos elementos y recompensas.
+- Compatible con diversas versiones de Minecraft.
+
+Para más detalles y la descarga del mod, visita la [página oficial de Artifacts en CurseForge](https://www.curseforge.com/minecraft/mc-mods/artifacts).

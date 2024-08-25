@@ -2,7 +2,7 @@
 title: "Uno"
 summary: "Wiki de Uno"
 date: "08 11 2024"
-draft: true
+draft: false
 tags:
 - Juego 2D
 - Desktop
