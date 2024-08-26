@@ -144,6 +144,7 @@ export const LINKS: Links = [
     SUBLINKS: [
       { TEXT: "Aprende JS", HREF: "https://aprendejs.broslunas.com" },
       { TEXT: "Node JS (Próximamente)", HREF: "#NO" },
+      { TEXT: "React (Próximamente)", HREF: "#NO" },
     ]
   },
   { 
