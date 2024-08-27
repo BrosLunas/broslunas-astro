@@ -109,6 +109,7 @@ import Container from "@components/Container.astro"
           <input
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="email"
+            type="email"
             name="email"
             required
             placeholder="Introduce tu correo electronico"
@@ -126,7 +127,9 @@ import Container from "@components/Container.astro"
           <input
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="phone"
+            type="tel"
             name="phone"
+            required
             placeholder="Introduce tu numero de telefono"
             type="tel"
           />
@@ -171,8 +174,7 @@ import Container from "@components/Container.astro"
 
           <input type="hidden" name="_next" value="https://broslunas.com/contacto/enviado">
           <input type="hidden" name="_captcha" value="false">
-
-
+          <input type="hidden" name="_autoresponse" value="Hemos recibido tu formulario.">
         </div>
       </form>
     </div>
