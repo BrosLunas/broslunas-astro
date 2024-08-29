@@ -9,7 +9,7 @@
 
 # Spoiler
 
-<button class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend" id="spoiler-button">SPOILER</button>
+<button class="border border-black/25 dark:border-white/25 py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-neutral-500 dark:bg-neutral-900 text-white dark:text-white hover:opacity-75 blend" id="spoiler-button">SPOILER</button>
 <div id="spoiler-content" class="hidden">
     <img src="spoiler.png" alt="Imagen Spoiler">
 </div>
