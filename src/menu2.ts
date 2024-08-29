@@ -19,6 +19,10 @@ export const LINKS: Links = [
       HREF: "/modpack",
     },
     { 
+      TEXT: "Games", 
+      HREF: "https://games.broslunas.com/", 
+    },
+    { 
       TEXT: "Code", 
       HREF: "https://code.broslunas.com/", 
     },
