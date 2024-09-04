@@ -15,7 +15,10 @@ const posts = (await getCollection("blog"))
   const wikis = (await getCollection("wikis"))
   .filter(post => !post.data.draft)
 
-const data = [...posts, ...projects, ...wikis] as CollectionEntry<"blog">[]
+  const modpacks = (await getCollection("modpacks"))
+  .filter(post => !post.data.draft)
+
+const data = [...posts, ...projects, ...wikis, ...modpacks] as CollectionEntry<"blog">[]
 ---
 
 <PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
