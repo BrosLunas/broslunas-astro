@@ -10,12 +10,12 @@ import { cn } from "@lib/utils"
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,6)
+  .slice(0,8)
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,6)
+  .slice(0,8)
 ---
 
 
