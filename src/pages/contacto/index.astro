@@ -3,7 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro"
 import { CONTACTO } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
-import Container from "@components/Container.astro"
+import ContactForm from "@components/ContactForm.astro"
 
 ---
 
@@ -62,133 +62,7 @@ import Container from "@components/Container.astro"
 
   <div class="relative bg-white dark:bg-black">
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16"></div>
-
-    <Container size="lg">
-    <div class="p-6">
-      <br>
-      <form id="contacto"class="space-y-4" action="" method="POST">
-        <div class="grid grid-cols-2 gap-4">
-          <div class="space-y-2">
-            <label
-              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              for="firstName"
-            >
-              Nombre
-            </label>
-            <input
-              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-              id="firstName"
-              name="nombre"
-              required
-              
-              placeholder="Introduce tu nombre"
-            />
-          </div>
-
-          <div class="space-y-2">
-            <label
-              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              for="lastName"
-            >
-              Apellidos
-            </label>
-            <input
-              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-              id="lastName"
-              name="apellido"
-              
-              placeholder="Introduce tu apellido"
-            />
-          </div>
-        </div>
-
-        <div class="space-y-2">
-          <label
-            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            for="email"
-          >
-            Email
-          </label>
-          <input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="email"
-            type="email" 
-            
-            name="email" 
-            required
-            placeholder="Correo Electrónico"
-            type="email"
-          />
-        </div>
-
-        <div class="space-y-2">
-          <label
-            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            for="phone"
-          >
-            Numero de Telefono
-          </label>
-          <input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="phone"
-            type="tel"
-            
-            name="phone"
-            placeholder="Introduce tu numero de telefono"
-            type="tel"
-          />
-        </div>
-
-        <div class="space-y-2">
-          <label
-            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            for="subject"
-          >
-            Asunto
-          </label>
-          <input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="subject"
-            name="asunto"
-            required 
-            
-            placeholder="Escribe el motivo"
-            type="text"
-          />
-        </div>
-
-        <div class="space-y-2">
-          <label
-            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            for="message"
-          >
-            Mensaje
-          </label>
-          <textarea 
-            style="resize: none; height: 150px"
-            name="mensaje" 
-            required
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            
-            id="message"/>
-
-          <input type="hidden" name="_next" value="https://broslunas.com/contacto/enviado">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-
-          <input  
-          type="submit" 
-          name="submit"
-          
-          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:bg-black/5 hover:dark:bg-white/15" 
-          value="Enviar">
-
-
-        </div>
-      </form>
-    </div>
-  </Container>
-
+    <ContactForm/>
   </div>
 </div>
 </div>
