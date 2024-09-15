@@ -65,7 +65,6 @@ import Container from "@components/Container.astro"
 
     <Container size="lg">
     <div class="p-6">
-      <p>Este formulario a sido desabilitado por un alto numero de peticiones de spam, para cualquier tipo de consulta, puede contactar conmigo mediante correo electronico <a href="mailto:pablo@broslunas.com">pablo@broslunas.com</a></p>
       <br>
       <form id="contacto"class="space-y-4" action="" method="POST">
         <div class="grid grid-cols-2 gap-4">
@@ -81,7 +80,7 @@ import Container from "@components/Container.astro"
               id="firstName"
               name="nombre"
               required
-              disabled
+              
               placeholder="Introduce tu nombre"
             />
           </div>
@@ -97,7 +96,7 @@ import Container from "@components/Container.astro"
               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               id="lastName"
               name="apellido"
-              disabled
+              
               placeholder="Introduce tu apellido"
             />
           </div>
@@ -114,7 +113,7 @@ import Container from "@components/Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="email"
             type="email" 
-            disabled
+            
             name="email" 
             required
             placeholder="Correo Electrónico"
@@ -133,7 +132,7 @@ import Container from "@components/Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="phone"
             type="tel"
-            disabled
+            
             name="phone"
             placeholder="Introduce tu numero de telefono"
             type="tel"
@@ -152,7 +151,7 @@ import Container from "@components/Container.astro"
             id="subject"
             name="asunto"
             required 
-            disabled
+            
             placeholder="Escribe el motivo"
             type="text"
           />
@@ -170,7 +169,7 @@ import Container from "@components/Container.astro"
             name="mensaje" 
             required
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            disabled
+            
             id="message"/>
 
           <input type="hidden" name="_next" value="https://broslunas.com/contacto/enviado">
@@ -180,7 +179,7 @@ import Container from "@components/Container.astro"
           <input  
           type="submit" 
           name="submit"
-          disabled
+          
           class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 hover:bg-black/5 hover:dark:bg-white/15" 
           value="Enviar">
 
