@@ -3,8 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro"
 import { NEWSLETTER } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
-import Container from "@components/Container.astro"
-
+import NewsletterForm from "@components/NewsletterForm.astro"
 ---
 
 <PageLayout title={NEWSLETTER.TITLE} description={NEWSLETTER.DESCRIPTION}>
@@ -62,16 +61,7 @@ import Container from "@components/Container.astro"
 
   <div class="relative bg-white dark:bg-black">
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16"></div>
-
-    <Container size="lg">
-    <div class="p-6">
-        <iframe data-w-type="embedded" src="https://sugik.mjt.lu/wgt/sugik/x5sx/form?c=88977e24" width="100%" style="height: 0;"></iframe>
-
-        <script is:inline type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
-    </div>
-  </div>
-</Container>
-
+    <NewsletterForm/>
 </div>
 </div>
 </PageLayout>
