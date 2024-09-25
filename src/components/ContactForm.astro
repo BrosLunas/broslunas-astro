@@ -19,7 +19,7 @@ import Container from "./Container.astro"
               id="firstName"
               name="nombre"
               required
-              
+              disabled
               placeholder="Introduce tu nombre"
             />
           </div>
@@ -35,7 +35,7 @@ import Container from "./Container.astro"
               class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
               id="lastName"
               name="apellido"
-              
+              disabled
               placeholder="Introduce tu apellido"
             />
           </div>
@@ -52,7 +52,7 @@ import Container from "./Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="email"
             type="email" 
-            
+            disabled
             name="email" 
             required
             placeholder="Correo Electrónico"
@@ -71,7 +71,7 @@ import Container from "./Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="phone"
             type="tel"
-            
+            disabled
             name="phone"
             placeholder="Introduce tu numero de telefono"
             type="tel"
@@ -90,7 +90,7 @@ import Container from "./Container.astro"
             id="subject"
             name="asunto"
             required 
-            
+            disabled
             placeholder="Escribe el motivo"
             type="text"
           />
@@ -108,7 +108,7 @@ import Container from "./Container.astro"
             name="mensaje" 
             required
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            
+            disabled
             id="message"/>
 
           <input type="hidden" name="_next" value="https://broslunas.com/contacto/enviado">
