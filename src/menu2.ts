@@ -35,8 +35,8 @@ export const LINKS: Links = [
       HREF: "https://cursos.broslunas.com/", 
     },
     { 
-      TEXT: "AiQr", 
-      HREF: "https://aiqr.broslunas.com/", 
+      TEXT: "Videos", 
+      HREF: "https://videos.broslunas.com/", 
     },
     { 
       TEXT: "Uptime", 
