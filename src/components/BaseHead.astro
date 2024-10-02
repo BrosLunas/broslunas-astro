@@ -9,6 +9,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
 const { title, description } = Astro.props
 ---
+
+<!-- Metricool -->
+<script is:inline>
+function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"92cb5be17c6a0bcc0d51fab91ddb3b23"})});
+</script>
 <!-- Google tag (gtag.js) -->
 <script is:inline type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-GS5NPQR6YQ"></script>
 <script is:inline type="text/partytown">
@@ -21,7 +26,7 @@ const { title, description } = Astro.props
 
 <!-- Google Adsense -->
 <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3547861784285015"
-     crossorigin="anonymous"></script>
+crossorigin="anonymous"></script>
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
