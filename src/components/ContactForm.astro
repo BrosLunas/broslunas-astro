@@ -4,10 +4,11 @@ import Container from "./Container.astro"
 <Container size="lg">
     <div class="p-6">
       <br>
-      <form id="contacto"class="space-y-4" action="https://formsubmit.co/pablo@broslunas.com"
+      <form id="contacto" class="space-y-4" action="https://api.web3forms.com/submit"
       method="POST">    
         <div class="grid grid-cols-2 gap-4">
           <div class="space-y-2">
+            <input type="hidden" name="access_key" value="d82653b3-b7d2-4989-a7f1-cebb9d8074ff">
             <label
               class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               for="firstName"
@@ -84,7 +85,7 @@ import Container from "./Container.astro"
           <input
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="subject"
-            name="asunto"
+            name="subject"
             required
             placeholder="Escribe el motivo"
             type="text"
@@ -105,11 +106,8 @@ import Container from "./Container.astro"
             class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             id="message"/>
 
-          <input type="hidden" name="_next" value="https://broslunas.com/contacto/enviado">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_subject" value="Nuevo mensaje de contacto">
-          <input type="hidden" name="_autoresponse" value="Gracias por contactarnos, en breve nos pondremos en contacto contigo."/>
+            <input type="hidden" name="redirect" value="https://broslunas.com/contacto/enviado">
+
           <input
           type="submit" 
           name="submit"

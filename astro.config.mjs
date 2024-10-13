@@ -33,5 +33,8 @@ export default defineConfig({
     '/post/[...slug]': '/blog/[...slug]',
     '/publicacion/[...slug]': '/blog/[...slug]',
     '/redes-sociales': '/rss',
+    '/contacto/newsletter': '/newsletter',
+    '/contacto/newsletter-confirmada': '/newsletter/confirmada',
+    '/contacto/newsletter-check-email': '/newsletter/check-email',
   }
 })
