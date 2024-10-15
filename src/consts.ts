@@ -44,6 +44,24 @@ export const ENVIADO: Page = {
 }
 
 // Contacto Page 
+export const NO_DISPONIBLE: Page = {
+  TITLE: "Formulario de Contacto no Disponible",
+  DESCRIPTION: "Lo sentimos, por favor acceda a esta pagina web desde otro dispositivo o navegador.",
+}
+
+// Contacto Page 
+export const REVISA_EMAIL: Page = {
+  TITLE: "Revisa tu Email",
+  DESCRIPTION: "Gracias por suscribirte a nuestra newsletter, revisa tu email para completar la suscripción",
+}
+
+// Contacto Page 
+export const CONFIRMADA: Page = {
+  TITLE: "Newsletter Confirmada",
+  DESCRIPTION: "Gracias por suscribirte a nuestra newsletter.",
+}
+
+// Contacto Page 
 export const MODPACK: Page = {
   TITLE: "Modpack",
   DESCRIPTION: "Modpack Oficial de Broslunas para la version 1.20.1.",
