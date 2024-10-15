@@ -6,7 +6,7 @@ draft: false
 tags:
 - Minecraft
 - Modpack
-linkUrl: /modpacks/broslunas-modpack
+linkUrl: /modpack/broslunas-modpack
 ---
 Broslunas Modpack es un conjunto de mods con el que podrás jugar una experiencia vanilla+.
 
